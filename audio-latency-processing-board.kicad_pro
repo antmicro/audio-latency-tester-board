@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -386,6 +386,30 @@
     [
       "7fb12ebf-f685-4412-b638-445b1bf344bc",
       "Root"
+    ],
+    [
+      "b53da73c-fb4d-4e7e-9733-7eb0a0e2fc03",
+      "ADC"
+    ],
+    [
+      "f9eae085-79a0-421d-99ba-d4c43e086097",
+      "Left Ear Microphone Connector"
+    ],
+    [
+      "66e9782a-ccab-4606-97f9-eb2618ff7d2d",
+      "Right Ear Microphone Connector"
+    ],
+    [
+      "80300fa7-dce3-4149-8e27-6609cbfb608d",
+      "Speaker + AMP"
+    ],
+    [
+      "56bafe6d-387a-4336-ac60-a2cbd3a9ff58",
+      "USB + Power"
+    ],
+    [
+      "14d08777-d857-4e48-b578-7edb7ff4ef8b",
+      "IO"
     ]
   ],
   "text_variables": {}
