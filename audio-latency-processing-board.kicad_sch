@@ -277,7 +277,7 @@
 		(instances
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc"
-					(page "6")
+					(page "4")
 				)
 			)
 		)
@@ -393,7 +393,7 @@
 		(instances
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc"
-					(page "6")
+					(page "2")
 				)
 			)
 		)
@@ -451,7 +451,7 @@
 		(instances
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -498,7 +498,7 @@
 		(instances
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc"
-					(page "7")
+					(page "3")
 				)
 			)
 		)
@@ -596,7 +596,7 @@
 		(instances
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc"
-					(page "2")
+					(page "5")
 				)
 			)
 		)

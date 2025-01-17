@@ -594,24 +594,24 @@
       "Root"
     ],
     [
-      "e8d03d22-ee30-4cd2-9426-15bfa302127a",
-      "RP2040 - 2"
-    ],
-    [
-      "80300fa7-dce3-4149-8e27-6609cbfb608d",
-      "AMP + Speaker Connector"
-    ],
-    [
-      "0f773a2d-5391-40eb-be49-d7fe3e85e6be",
-      "RP2040 - 1"
-    ],
-    [
       "56bafe6d-387a-4336-ac60-a2cbd3a9ff58",
       "2xUSB + Power"
     ],
     [
       "a5973bba-065b-4f1e-8188-1e9f006e3cba",
       "L + R Ear Microphone Connectors"
+    ],
+    [
+      "0f773a2d-5391-40eb-be49-d7fe3e85e6be",
+      "RP2040 - 1"
+    ],
+    [
+      "e8d03d22-ee30-4cd2-9426-15bfa302127a",
+      "RP2040 - 2"
+    ],
+    [
+      "80300fa7-dce3-4149-8e27-6609cbfb608d",
+      "AMP + Speaker Connector"
     ],
     [
       "1277d361-8469-440e-97d3-29bbfd6c9b73",
