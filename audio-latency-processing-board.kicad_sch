@@ -16,12 +16,15 @@
 	(bus_alias "I2S"
 		(members "SD" "SCK" "WS")
 	)
+	(bus_alias "SPI"
+		(members "MISO" "MOSI" "SCK" "~{CS1}" "~{CS2}")
+	)
 	(bus_alias "TRIG"
-		(members "TRIG")
+		(members "TRIG1" "TRIG2" "TRIG3")
 	)
 	(bus
 		(pts
-			(xy 194.31 176.53) (xy 194.31 138.43)
+			(xy 193.04 157.48) (xy 193.04 138.43)
 		)
 		(stroke
 			(width 0)
@@ -31,7 +34,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 132.08) (xy 151.13 132.08)
+			(xy 135.89 132.08) (xy 151.13 132.08)
 		)
 		(stroke
 			(width 0)
@@ -42,7 +45,7 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 172.72) (xy 189.23 138.43)
+			(xy 190.5 154.94) (xy 190.5 138.43)
 		)
 		(stroke
 			(width 0)
@@ -52,7 +55,17 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 172.72) (xy 189.23 172.72)
+			(xy 182.88 157.48) (xy 193.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c0d5d4-0d3e-4fa8-97de-cb18a183fb49")
+	)
+	(bus
+		(pts
+			(xy 182.88 154.94) (xy 190.5 154.94)
 		)
 		(stroke
 			(width 0)
@@ -62,14 +75,53 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 132.08) (xy 200.66 132.08)
+			(xy 182.88 123.19) (xy 190.5 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 175 145 1)
 		)
-		(uuid "8c50ad3a-cdff-4148-a326-489d27c1ba23")
+		(uuid "6f6444d5-f506-4482-a553-fe99f509de42")
+	)
+	(bus
+		(pts
+			(xy 193.04 105.41) (xy 201.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7583f637-73c4-4ed2-87cd-efb8f59f8160")
+	)
+	(bus
+		(pts
+			(xy 182.88 130.81) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859f9023-1c6c-4241-82bb-44bc205ba0f7")
+	)
+	(bus
+		(pts
+			(xy 182.88 133.35) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85be7ff4-d17a-4c63-a57a-72b360faf673")
+	)
+	(bus
+		(pts
+			(xy 193.04 123.19) (xy 200.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcbffee-54af-4fce-862c-521c810ffc25")
 	)
 	(bus
 		(pts
@@ -90,11 +142,21 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b80c8485-0605-4cc3-a877-30899091bcbb")
+		(uuid "bdb904eb-b7f4-4b0b-941a-ecb2adf65870")
 	)
 	(bus
 		(pts
-			(xy 189.23 138.43) (xy 182.88 138.43)
+			(xy 193.04 105.41) (xy 193.04 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84053ba-2392-4f1a-8899-218b8b0e6cbc")
+	)
+	(bus
+		(pts
+			(xy 190.5 138.43) (xy 182.88 138.43)
 		)
 		(stroke
 			(width 0)
@@ -104,23 +166,33 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 176.53) (xy 194.31 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d545c567-7b1c-4bbd-accd-8da489eadeb1")
-	)
-	(bus
-		(pts
-			(xy 194.31 138.43) (xy 200.66 138.43)
+			(xy 193.04 138.43) (xy 200.66 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef8ed3c9-4266-49cb-8951-ffab9d79cd4f")
+	)
+	(bus
+		(pts
+			(xy 190.5 102.87) (xy 201.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dc4df9-a630-4805-a255-243e3eb3d529")
+	)
+	(bus
+		(pts
+			(xy 190.5 123.19) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac13eab-6f93-46d1-9f27-7268984d6003")
 	)
 	(sheet
 		(at 151.13 120.65)
@@ -160,19 +232,9 @@
 				)
 				(justify left)
 			)
-			(uuid "9d2bfa57-d924-4a12-87b7-23f25ead0bd0")
+			(uuid "9e536ddd-f04b-452f-b49b-36c0687903ed")
 		)
-		(pin "TRIG_INPUT{TRIG}" input
-			(at 182.88 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0ba0c1e4-3142-48e4-9248-60542861482d")
-		)
-		(pin "USB{USB}" bidirectional
+		(pin "USB{USB}" input
 			(at 182.88 138.43 0)
 			(effects
 				(font
@@ -180,7 +242,37 @@
 				)
 				(justify right)
 			)
-			(uuid "23d78333-6561-4b4a-ae5e-717d80168284")
+			(uuid "895478d3-7712-4214-a9c2-47268574da26")
+		)
+		(pin "I2C{I2C}" input
+			(at 182.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3f31ae01-a7c3-4d16-8edd-3faffcfd583b")
+		)
+		(pin "TRIGGER{TRIG}" input
+			(at 182.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f43f749-4e03-4da3-a994-7c6aed7333da")
+		)
+		(pin "SPI{SPI}" input
+			(at 182.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f65f54c3-8716-44f9-b943-7adb4d570d9b")
 		)
 		(instances
 			(project "audio-latency-processing-board"
@@ -191,8 +283,66 @@
 		)
 	)
 	(sheet
-		(at 165.1 168.91)
-		(size 13.97 11.43)
+		(at 201.93 99.06)
+		(size 19.05 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1277d361-8469-440e-97d3-29bbfd6c9b73")
+		(property "Sheetname" "IO"
+			(at 201.93 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO.kicad_sch"
+			(at 201.93 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TRIGGER1{TRIG}" input
+			(at 201.93 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7850bc37-2bce-48fc-a57a-e1b47d648347")
+		)
+		(pin "TRIGGER2{TRIG}" input
+			(at 201.93 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86a917c3-7ee7-43a3-b7ab-b908928dae59")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 151.13)
+		(size 13.97 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -203,7 +353,7 @@
 		)
 		(uuid "56bafe6d-387a-4336-ac60-a2cbd3a9ff58")
 		(property "Sheetname" "2xUSB + Power"
-			(at 165.1 168.1984 0)
+			(at 168.91 150.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +362,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 165.1 180.9246 0)
+			(at 168.91 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -221,7 +371,7 @@
 			)
 		)
 		(pin "USB2{USB}" bidirectional
-			(at 179.07 176.53 0)
+			(at 182.88 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -231,7 +381,7 @@
 			(uuid "ce8a82c7-310e-460a-b8b3-90f0c608f305")
 		)
 		(pin "USB1{USB}" bidirectional
-			(at 179.07 172.72 0)
+			(at 182.88 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -249,7 +399,7 @@
 		)
 	)
 	(sheet
-		(at 248.92 121.92)
+		(at 248.92 120.65)
 		(size 24.13 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -261,7 +411,7 @@
 		)
 		(uuid "80300fa7-dce3-4149-8e27-6609cbfb608d")
 		(property "Sheetname" "AMP + Speaker Connector"
-			(at 248.92 121.2084 0)
+			(at 248.92 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,7 +420,7 @@
 			)
 		)
 		(property "Sheetfile" "amp.kicad_sch"
-			(at 248.92 144.0946 0)
+			(at 248.92 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,9 +457,8 @@
 		)
 	)
 	(sheet
-		(at 99.06 128.27)
+		(at 119.38 128.27)
 		(size 16.51 7.62)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -319,7 +468,7 @@
 		)
 		(uuid "a5973bba-065b-4f1e-8188-1e9f006e3cba")
 		(property "Sheetname" "L + R Ear Microphone Connectors"
-			(at 99.06 127.5584 0)
+			(at 112.522 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,7 +477,7 @@
 			)
 		)
 		(property "Sheetfile" "Mic_Conn.kicad_sch"
-			(at 99.06 136.4746 0)
+			(at 116.586 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,7 +486,7 @@
 			)
 		)
 		(pin "L-R-Mic{I2S}" output
-			(at 115.57 132.08 0)
+			(at 135.89 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,26 +543,6 @@
 			)
 			(uuid "2148fbd9-d181-47b0-b837-ec6ab053cf63")
 		)
-		(pin "I2C{I2C}" output
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2ef23ddf-e3c2-405c-a4ef-2be87544fe62")
-		)
-		(pin "TRIG_OUTPUT{TRIG}" output
-			(at 200.66 132.08 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2d3fa968-7427-41aa-a3ac-7af8306e668d")
-		)
 		(pin "USB{USB}" bidirectional
 			(at 200.66 138.43 180)
 			(effects
@@ -423,6 +552,46 @@
 				(justify left)
 			)
 			(uuid "6a1548eb-74d3-4e70-8997-ccadafbe7bc6")
+		)
+		(pin "TRIGGER{TRIG}" input
+			(at 200.66 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e9c0bcd-58eb-4f9e-b7e3-200819e51eae")
+		)
+		(pin "SPI{SPI}" input
+			(at 200.66 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b0bebce-d54d-491b-a39c-26ed5cdeb60f")
+		)
+		(pin "I2C1{I2C}" input
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2ff3dbb7-07ab-4f6d-9857-6401fd2b38a7")
+		)
+		(pin "I2C2{I2C}" input
+			(at 200.66 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6469106e-dd15-421b-98e5-7de74dac2f27")
 		)
 		(instances
 			(project "audio-latency-processing-board"
