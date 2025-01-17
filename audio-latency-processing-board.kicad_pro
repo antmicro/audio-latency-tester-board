@@ -580,28 +580,24 @@
       "Root"
     ],
     [
-      "b53da73c-fb4d-4e7e-9733-7eb0a0e2fc03",
-      "ADC"
-    ],
-    [
-      "f9eae085-79a0-421d-99ba-d4c43e086097",
-      "Left Ear Microphone Connector"
-    ],
-    [
-      "66e9782a-ccab-4606-97f9-eb2618ff7d2d",
-      "Right Ear Microphone Connector"
+      "e8d03d22-ee30-4cd2-9426-15bfa302127a",
+      "RP2040 - 2"
     ],
     [
       "80300fa7-dce3-4149-8e27-6609cbfb608d",
-      "Speaker + AMP"
+      "AMP + Speaker Connector"
+    ],
+    [
+      "0f773a2d-5391-40eb-be49-d7fe3e85e6be",
+      "RP2040 - 1"
     ],
     [
       "56bafe6d-387a-4336-ac60-a2cbd3a9ff58",
-      "USB + Power"
+      "2xUSB + Power"
     ],
     [
-      "14d08777-d857-4e48-b578-7edb7ff4ef8b",
-      "IO"
+      "a5973bba-065b-4f1e-8188-1e9f006e3cba",
+      "L + R Ear Microphone Connectors"
     ]
   ],
   "text_variables": {}

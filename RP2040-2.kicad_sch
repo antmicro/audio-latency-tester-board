@@ -1,0 +1,400 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5a4e75e6-fdff-40dc-b04a-8a3f866d3103")
+	(paper "A4")
+	(title_block
+		(title "audio-latency-processing-board")
+		(date "2025-01-07")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 138.43 153.67)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7da0de-07e6-4add-aab8-de143e60e7e7")
+	)
+	(bus_entry
+		(at 110.49 101.6)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bdc5802-bdec-4ca2-b63c-389a2644fa5e")
+	)
+	(bus_entry
+		(at 110.49 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd00da7-375d-49b8-b8b0-7f09a92e40cc")
+	)
+	(bus_entry
+		(at 124.46 138.43)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830381ee-74c1-491a-9054-197528ffbc41")
+	)
+	(bus_entry
+		(at 110.49 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93931b89-328f-49b6-8c92-280a46368324")
+	)
+	(bus_entry
+		(at 110.49 90.17)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa489b03-af6d-4109-946c-b88702711d70")
+	)
+	(bus_entry
+		(at 110.49 87.63)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51e8b8b-2505-4e36-ba56-1bdabde3650c")
+	)
+	(bus_entry
+		(at 138.43 156.21)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfec9b0-eb7e-475a-a5c9-b145fbe75e70")
+	)
+	(bus
+		(pts
+			(xy 129.54 130.81) (xy 124.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0894f9b9-1a15-48f8-a62a-11eaaae6836d")
+	)
+	(bus
+		(pts
+			(xy 149.86 152.4) (xy 138.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c77dd8-0938-43c5-adfc-747003c8e72e")
+	)
+	(bus
+		(pts
+			(xy 110.49 87.63) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21694338-7ce7-4644-8f1f-619b90ca6f05")
+	)
+	(bus
+		(pts
+			(xy 138.43 153.67) (xy 138.43 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1543a7-3301-47c2-9cea-c62c3ddc9e4a")
+	)
+	(bus
+		(pts
+			(xy 124.46 130.81) (xy 124.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4100f775-3a5b-4bb1-a7b3-bf716f3fde04")
+	)
+	(wire
+		(pts
+			(xy 102.87 140.97) (xy 121.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47aa8ecf-097d-405b-9215-3cc2c01532a8")
+	)
+	(wire
+		(pts
+			(xy 125.73 156.21) (xy 135.89 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4828299b-55cc-4376-8484-cd323ec7b95e")
+	)
+	(bus
+		(pts
+			(xy 110.49 99.06) (xy 110.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d37d59-ee22-4453-8ecc-5a04a4a87861")
+	)
+	(wire
+		(pts
+			(xy 125.73 158.75) (xy 135.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826f7de8-67d3-4674-9c29-3c3b9aaefc2e")
+	)
+	(wire
+		(pts
+			(xy 113.03 101.6) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a23c959-2719-4b16-a9b0-3df7ec35f6bf")
+	)
+	(bus
+		(pts
+			(xy 138.43 152.4) (xy 138.43 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1396668-29fa-49b7-9e4a-9e92b12293e2")
+	)
+	(bus
+		(pts
+			(xy 104.14 99.06) (xy 110.49 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4bc5d42-2aad-4774-9732-cd8cdc5f445f")
+	)
+	(bus
+		(pts
+			(xy 102.87 87.63) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc953281-66a4-4725-816d-cb8f2f356171")
+	)
+	(wire
+		(pts
+			(xy 113.03 104.14) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38c6166-255c-48f4-a3b3-7e1f5466806f")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba2508c-43af-49e3-9d8d-74738f751c2b")
+	)
+	(wire
+		(pts
+			(xy 113.03 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2033ae3-a920-46bf-9f0c-53a40e4edbfa")
+	)
+	(bus
+		(pts
+			(xy 110.49 101.6) (xy 110.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0d986f-630f-4418-98c1-ac666730c581")
+	)
+	(wire
+		(pts
+			(xy 113.03 90.17) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8acc21-2953-4612-b4f8-777745daea8b")
+	)
+	(label "USB.D_P"
+		(at 125.73 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1accf067-8d2f-4ca8-a670-d7aab20ac27f")
+	)
+	(label "I2S.SD"
+		(at 113.03 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31f202e6-83dc-400c-b364-a63860db563e")
+	)
+	(label "I2S.SCK"
+		(at 113.03 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35bee815-79bd-454f-adfd-5db5e2314e63")
+	)
+	(label "TRIG_OUTPUT.TRIG"
+		(at 102.87 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c5b80e1-50dd-4f92-87eb-9fb4f5da871f")
+	)
+	(label "I2C.SCL"
+		(at 121.92 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e59fec7-df18-4ed3-a6a1-ce755f7f8872")
+	)
+	(label "I2C.SDA"
+		(at 121.92 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83f05f38-392c-453d-aa79-d745c9cf77de")
+	)
+	(label "USB.D_N"
+		(at 125.73 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5411f65-d96a-4c2e-a92b-26752274e5ff")
+	)
+	(label "I2S.WS"
+		(at 113.03 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2d5754d-0704-49e6-a753-35fca9f45972")
+	)
+	(hierarchical_label "USB{USB}"
+		(shape input)
+		(at 149.86 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "188ee0c0-4a93-47c7-a4b2-97c17791c7f6")
+	)
+	(hierarchical_label "I2S{I2S}"
+		(shape input)
+		(at 104.14 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d3ff996-f168-45bd-9670-07e62bc8dff4")
+	)
+	(hierarchical_label "I2C{I2C}"
+		(shape input)
+		(at 102.87 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70f670f3-3873-4687-9b0d-f3b5ca890542")
+	)
+	(hierarchical_label "TRIG_OUTPUT{TRIG}"
+		(shape input)
+		(at 129.54 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4814211-95e4-4eef-a852-2d524734cfca")
+	)
+)

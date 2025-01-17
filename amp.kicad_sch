@@ -3279,6 +3279,15 @@
 		(uuid "0456969c-e946-47d7-b0dc-f83d7f366a35")
 	)
 	(bus_entry
+		(at 133.35 156.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b211521-86ec-4846-9808-fc23267851b6")
+	)
+	(bus_entry
 		(at 156.21 118.11)
 		(size 2.54 2.54)
 		(stroke
@@ -3306,6 +3315,15 @@
 		(uuid "86f9d1fd-020d-44f5-90ac-cba5a79c29e4")
 	)
 	(bus_entry
+		(at 133.35 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b275e99-dc06-4c94-ab06-eb2b2ea24452")
+	)
+	(bus_entry
 		(at 156.21 120.65)
 		(size 2.54 2.54)
 		(stroke
@@ -3313,6 +3331,33 @@
 			(type default)
 		)
 		(uuid "a1eb8207-69ca-4393-b0bd-5dfdc730c478")
+	)
+	(bus_entry
+		(at 133.35 142.24)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6be154e-e692-4275-b6e4-f867171d4051")
+	)
+	(bus_entry
+		(at 133.35 158.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7f784e-6d4f-4ac0-a47e-c56a9cb0ab62")
+	)
+	(bus_entry
+		(at 133.35 153.67)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef584617-003d-472b-be2d-6d95cf475410")
 	)
 	(wire
 		(pts
@@ -3323,6 +3368,16 @@
 			(type default)
 		)
 		(uuid "016e0062-6332-46f9-a25f-cc690f7aac8a")
+	)
+	(bus
+		(pts
+			(xy 133.35 156.21) (xy 133.35 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0405925d-2692-45c7-9273-63c2e1919ebd")
 	)
 	(wire
 		(pts
@@ -3436,6 +3491,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 144.78) (xy 151.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20cf66d0-2a25-4eec-a23d-da75d3d10731")
+	)
+	(wire
+		(pts
 			(xy 59.69 81.28) (xy 59.69 82.55)
 		)
 		(stroke
@@ -3463,6 +3528,16 @@
 			(type default)
 		)
 		(uuid "24288c80-a436-4fcd-9b06-967616effed2")
+	)
+	(wire
+		(pts
+			(xy 135.89 147.32) (xy 158.75 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24731d9f-74a0-4917-9c28-20ecf48296ad")
 	)
 	(wire
 		(pts
@@ -3553,6 +3628,16 @@
 			(type default)
 		)
 		(uuid "3bc4df14-f7bf-406b-8440-28e0bf87a8bd")
+	)
+	(wire
+		(pts
+			(xy 135.89 158.75) (xy 147.32 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438494fe-8183-4715-90f7-e93634e0e7d7")
 	)
 	(wire
 		(pts
@@ -3726,6 +3811,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 156.21) (xy 147.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f30a80-fff9-4693-a8b8-10e4d8725252")
+	)
+	(wire
+		(pts
 			(xy 210.82 110.49) (xy 210.82 115.57)
 		)
 		(stroke
@@ -3743,6 +3838,16 @@
 			(type default)
 		)
 		(uuid "6aa703ff-42d3-4606-9bd1-36ac21327eca")
+	)
+	(wire
+		(pts
+			(xy 135.89 161.29) (xy 147.32 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb58ac3-131a-45ef-acf9-dd848ed8220b")
 	)
 	(bus
 		(pts
@@ -3834,6 +3939,16 @@
 		)
 		(uuid "7f425b42-7461-4aae-aac6-dcca3c323f11")
 	)
+	(bus
+		(pts
+			(xy 125.73 142.24) (xy 133.35 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802bb06d-d269-466c-9a39-508d67157b32")
+	)
 	(wire
 		(pts
 			(xy 161.29 95.25) (xy 170.18 95.25)
@@ -3883,6 +3998,16 @@
 			(type default)
 		)
 		(uuid "8e7d4ce2-5b02-4530-9979-59a03590e5d3")
+	)
+	(bus
+		(pts
+			(xy 133.35 142.24) (xy 133.35 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f635169-e579-42d9-b81a-9f3bb6a506a1")
 	)
 	(wire
 		(pts
@@ -4134,6 +4259,16 @@
 		)
 		(uuid "bbb46778-87fe-47e3-a420-4f94148a318f")
 	)
+	(bus
+		(pts
+			(xy 127 153.67) (xy 133.35 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befd26eb-d23f-4eed-b5f5-79721ea4cd3e")
+	)
 	(wire
 		(pts
 			(xy 137.16 59.69) (xy 137.16 64.77)
@@ -4273,6 +4408,16 @@
 			(type default)
 		)
 		(uuid "e7fa1dc8-bd64-47e2-8d9c-b99fbf8fe0f0")
+	)
+	(bus
+		(pts
+			(xy 133.35 153.67) (xy 133.35 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebac7fd5-0f81-4999-99af-343f09fd8117")
 	)
 	(wire
 		(pts
@@ -4424,6 +4569,28 @@
 		)
 		(uuid "d0719941-76fb-4b6e-b7a2-c634a5b3a264")
 	)
+	(label "I2C.SDA"
+		(at 144.78 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01cab4e1-3c80-4ae9-acae-6327fd19128e")
+	)
+	(label "I2S.WS"
+		(at 135.89 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d503949-86dc-4839-a516-f1f2ab0609d2")
+	)
 	(label "AVDD"
 		(at 208.28 77.47 0)
 		(fields_autoplaced yes)
@@ -4490,6 +4657,17 @@
 		)
 		(uuid "60fcdb1e-10ee-4750-bdf4-c6ac1dfec947")
 	)
+	(label "I2C.SCL"
+		(at 144.78 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6711acd2-e1f5-471a-a7f4-f57a6b495e2d")
+	)
 	(label "IOVDD"
 		(at 111.76 64.77 180)
 		(fields_autoplaced yes)
@@ -4534,6 +4712,17 @@
 		)
 		(uuid "94f2f31a-0ccf-49bf-bc18-b48b8d347150")
 	)
+	(label "I2S.SD"
+		(at 135.89 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "964df2b9-3124-4699-8582-984abccf117d")
+	)
 	(label "IOVDD"
 		(at 58.42 81.28 180)
 		(fields_autoplaced yes)
@@ -4555,6 +4744,17 @@
 			(justify right bottom)
 		)
 		(uuid "b6bec1a7-aec7-429f-9b17-04a07451f899")
+	)
+	(label "I2S.SCK"
+		(at 135.89 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8cf99a0-1456-435e-b169-b35134ae1dfa")
 	)
 	(label "AVDD"
 		(at 144.78 64.77 180)
@@ -4656,6 +4856,30 @@
 			(justify right)
 		)
 		(uuid "2c4f723a-150e-41ec-ad43-676599d74318")
+	)
+	(hierarchical_label "I2C{I2C}"
+		(shape input)
+		(at 125.73 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cad0df4-7b7f-4b2f-b930-282fc5600ea5")
+	)
+	(hierarchical_label "I2S{I2S}"
+		(shape input)
+		(at 127 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aee65217-ab0d-4a7f-a56a-29fc20a26b61")
 	)
 	(symbol
 		(lib_name "TAS2505IRGER_1")
