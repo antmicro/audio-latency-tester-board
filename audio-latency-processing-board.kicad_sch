@@ -24,7 +24,7 @@
 	)
 	(bus
 		(pts
-			(xy 193.04 157.48) (xy 193.04 138.43)
+			(xy 194.31 157.48) (xy 194.31 138.43)
 		)
 		(stroke
 			(width 0)
@@ -55,13 +55,23 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 157.48) (xy 193.04 157.48)
+			(xy 182.88 157.48) (xy 194.31 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "48c0d5d4-0d3e-4fa8-97de-cb18a183fb49")
+	)
+	(bus
+		(pts
+			(xy 194.31 106.68) (xy 201.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54981b26-8f14-4164-a8f7-d3ad3f80c896")
 	)
 	(bus
 		(pts
@@ -85,37 +95,7 @@
 	)
 	(bus
 		(pts
-			(xy 193.04 105.41) (xy 201.93 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7583f637-73c4-4ed2-87cd-efb8f59f8160")
-	)
-	(bus
-		(pts
-			(xy 182.88 130.81) (xy 200.66 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "859f9023-1c6c-4241-82bb-44bc205ba0f7")
-	)
-	(bus
-		(pts
-			(xy 182.88 133.35) (xy 200.66 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85be7ff4-d17a-4c63-a57a-72b360faf673")
-	)
-	(bus
-		(pts
-			(xy 193.04 123.19) (xy 200.66 123.19)
+			(xy 194.31 123.19) (xy 200.66 123.19)
 		)
 		(stroke
 			(width 0)
@@ -136,6 +116,16 @@
 	)
 	(bus
 		(pts
+			(xy 182.88 133.35) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbac348a-6f13-4975-97eb-fc058b0b103c")
+	)
+	(bus
+		(pts
 			(xy 232.41 137.16) (xy 248.92 137.16)
 		)
 		(stroke
@@ -146,7 +136,7 @@
 	)
 	(bus
 		(pts
-			(xy 193.04 105.41) (xy 193.04 123.19)
+			(xy 194.31 106.68) (xy 194.31 123.19)
 		)
 		(stroke
 			(width 0)
@@ -166,7 +156,17 @@
 	)
 	(bus
 		(pts
-			(xy 193.04 138.43) (xy 200.66 138.43)
+			(xy 182.88 129.54) (xy 200.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8033d1-002e-41dc-8430-83a75379c64e")
+	)
+	(bus
+		(pts
+			(xy 194.31 138.43) (xy 200.66 138.43)
 		)
 		(stroke
 			(width 0)
@@ -234,16 +234,6 @@
 			)
 			(uuid "9e536ddd-f04b-452f-b49b-36c0687903ed")
 		)
-		(pin "USB{USB}" input
-			(at 182.88 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "895478d3-7712-4214-a9c2-47268574da26")
-		)
 		(pin "I2C{I2C}" input
 			(at 182.88 133.35 0)
 			(effects
@@ -265,7 +255,7 @@
 			(uuid "5f43f749-4e03-4da3-a994-7c6aed7333da")
 		)
 		(pin "SPI{SPI}" input
-			(at 182.88 130.81 0)
+			(at 182.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -273,6 +263,16 @@
 				(justify right)
 			)
 			(uuid "f65f54c3-8716-44f9-b943-7adb4d570d9b")
+		)
+		(pin "USB{USB}" input
+			(at 182.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "886c7545-b516-4514-8d84-e53d429d8776")
 		)
 		(instances
 			(project "audio-latency-processing-board"
@@ -283,8 +283,8 @@
 		)
 	)
 	(sheet
-		(at 201.93 99.06)
-		(size 19.05 10.16)
+		(at 201.93 100.33)
+		(size 19.05 8.89)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -295,7 +295,7 @@
 		)
 		(uuid "1277d361-8469-440e-97d3-29bbfd6c9b73")
 		(property "Sheetname" "IO"
-			(at 201.93 98.3484 0)
+			(at 201.93 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -313,7 +313,7 @@
 			)
 		)
 		(pin "TRIGGER1{TRIG}" input
-			(at 201.93 105.41 180)
+			(at 201.93 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -543,16 +543,6 @@
 			)
 			(uuid "2148fbd9-d181-47b0-b837-ec6ab053cf63")
 		)
-		(pin "USB{USB}" bidirectional
-			(at 200.66 138.43 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6a1548eb-74d3-4e70-8997-ccadafbe7bc6")
-		)
 		(pin "TRIGGER{TRIG}" input
 			(at 200.66 123.19 180)
 			(effects
@@ -564,7 +554,7 @@
 			(uuid "8e9c0bcd-58eb-4f9e-b7e3-200819e51eae")
 		)
 		(pin "SPI{SPI}" input
-			(at 200.66 130.81 180)
+			(at 200.66 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,6 +582,16 @@
 				(justify left)
 			)
 			(uuid "6469106e-dd15-421b-98e5-7de74dac2f27")
+		)
+		(pin "USB{USB}" input
+			(at 200.66 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a6f23a7-a419-4957-9cd9-5e9253766680")
 		)
 		(instances
 			(project "audio-latency-processing-board"

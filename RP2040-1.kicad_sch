@@ -5297,12 +5297,24 @@
 		(uuid "fe905868-17e1-4ca0-94e2-b63c09acaec8")
 	)
 	(no_connect
+		(at 233.68 129.54)
+		(uuid "00193ff9-def4-4cda-8329-71280fdc660d")
+	)
+	(no_connect
+		(at 233.68 127)
+		(uuid "0e4c7d09-a628-49c9-8553-8b7b8147eca1")
+	)
+	(no_connect
 		(at 233.68 165.1)
 		(uuid "167d6acd-6e80-4423-bfe1-2689402f02f8")
 	)
 	(no_connect
 		(at 233.68 160.02)
 		(uuid "182ab20c-7268-4045-9c05-6ffa21533b46")
+	)
+	(no_connect
+		(at 233.68 121.92)
+		(uuid "25ca8a38-9555-41c5-908b-c057ada88ebd")
 	)
 	(no_connect
 		(at 233.68 162.56)
@@ -5321,6 +5333,14 @@
 		(uuid "62b7cc3f-44a8-4f2d-b309-5375be1814e4")
 	)
 	(no_connect
+		(at 233.68 119.38)
+		(uuid "6ef11eb7-f9d0-412a-85bb-21777e7b4de1")
+	)
+	(no_connect
+		(at 233.68 144.78)
+		(uuid "711b21dd-c879-4a4d-b080-985c9ea8ce2c")
+	)
+	(no_connect
 		(at 233.68 175.26)
 		(uuid "9a256f07-5d4f-4a93-afa8-4836b373cf88")
 	)
@@ -5331,6 +5351,18 @@
 	(no_connect
 		(at 233.68 185.42)
 		(uuid "c17b13f9-65ec-4832-a4f6-fa2fb6d86449")
+	)
+	(no_connect
+		(at 233.68 124.46)
+		(uuid "d7ff13cd-733b-4219-911f-3300285a6541")
+	)
+	(no_connect
+		(at 233.68 139.7)
+		(uuid "dc7aed65-f213-4337-b4f1-8e0ee0144db5")
+	)
+	(no_connect
+		(at 233.68 142.24)
+		(uuid "e85db195-9a91-46dd-8afd-fdf6888eba98")
 	)
 	(bus_entry
 		(at 154.94 147.32)
@@ -6994,6 +7026,7 @@
 	)
 	(label "SPI.~{CS2}"
 		(at 248.92 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7026,6 +7059,7 @@
 	)
 	(label "SPI.MOSI"
 		(at 247.65 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7047,6 +7081,7 @@
 	)
 	(label "TRIGGER.TRIG1"
 		(at 251.46 177.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7068,6 +7103,7 @@
 	)
 	(label "TRIGGER.TRIG3"
 		(at 251.46 182.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7078,6 +7114,7 @@
 	)
 	(label "TRIGGER.TRIG2"
 		(at 251.46 180.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7154,6 +7191,7 @@
 	)
 	(label "SPI.~{CS1}"
 		(at 248.92 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7164,6 +7202,7 @@
 	)
 	(label "SPI.SCK"
 		(at 247.65 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7174,6 +7213,7 @@
 	)
 	(label "SPI.MISO"
 		(at 247.65 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

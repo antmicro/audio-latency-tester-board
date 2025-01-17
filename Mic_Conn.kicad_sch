@@ -3265,6 +3265,102 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 194.31 151.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33bfa5ea-9307-43bf-898e-54ec97429977")
+		(property "Reference" "#PWR027"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 185.42 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 185.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fd72b19-7859-41d9-9193-86c0f85449c9")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/a5973bba-065b-4f1e-8188-1e9f006e3cba"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 128.27 140.97 90)
 		(unit 1)
@@ -3273,7 +3369,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "26b8490e-3d30-4088-8690-f575b53a9181")
+		(uuid "3743f9fa-eaa6-4049-9245-f5f77c7ccfb6")
 		(property "Reference" "C4"
 			(at 130.81 137.1536 90)
 			(effects
@@ -3401,111 +3497,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8ef3e80d-b6a1-4851-a14e-4e3e70ea2d3d")
+			(uuid "c50ff738-e1dd-46ab-b82e-0e076a343a1f")
 		)
 		(pin "1"
-			(uuid "a570c297-74a7-46f8-9913-06e8ed59c16a")
-		)
-		(instances
-			(project ""
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/a5973bba-065b-4f1e-8188-1e9f006e3cba"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 194.31 151.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33bfa5ea-9307-43bf-898e-54ec97429977")
-		(property "Reference" "#PWR027"
-			(at 185.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 185.42 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 185.42 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fd72b19-7859-41d9-9193-86c0f85449c9")
+			(uuid "1bf46fed-0d7d-4e35-b0ab-bee39f24b630")
 		)
 		(instances
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/a5973bba-065b-4f1e-8188-1e9f006e3cba"
-					(reference "#PWR027")
+					(reference "C4")
 					(unit 1)
 				)
 			)
