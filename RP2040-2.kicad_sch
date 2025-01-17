@@ -5518,10 +5518,6 @@
 		(uuid "61eb919c-c936-4791-9184-6c8080e354f0")
 	)
 	(no_connect
-		(at 318.77 147.32)
-		(uuid "64d2db48-25ee-4fec-aa8e-69f91c2750ad")
-	)
-	(no_connect
 		(at 218.44 139.7)
 		(uuid "65c488a7-9ece-4d3d-af29-a1587c51d699")
 	)
@@ -5532,10 +5528,6 @@
 	(no_connect
 		(at 218.44 162.56)
 		(uuid "7a192117-d9b1-4ca2-9c98-40da7911787d")
-	)
-	(no_connect
-		(at 318.77 139.7)
-		(uuid "81226705-2077-469d-9007-d12e0847ca87")
 	)
 	(no_connect
 		(at 218.44 127)
@@ -5564,14 +5556,6 @@
 	(no_connect
 		(at 218.44 175.26)
 		(uuid "d28af2ec-bc47-46cf-a676-222058336e1d")
-	)
-	(no_connect
-		(at 318.77 144.78)
-		(uuid "e3d0431e-7f2c-4c8c-80a4-db10349f99b9")
-	)
-	(no_connect
-		(at 318.77 142.24)
-		(uuid "eb0164c9-1867-4084-ac95-63ae8adf5b94")
 	)
 	(bus_entry
 		(at 243.84 165.1)
@@ -6458,16 +6442,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 139.7) (xy 318.77 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "640e6971-a526-4c56-90dd-21c3ffb11b7c")
-	)
-	(wire
-		(pts
 			(xy 228.6 147.32) (xy 241.3 147.32)
 		)
 		(stroke
@@ -6866,16 +6840,6 @@
 		)
 		(uuid "aa58013f-15f7-4a21-95c6-cb56c2e67dbf")
 	)
-	(wire
-		(pts
-			(xy 307.34 144.78) (xy 318.77 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac2d65fe-09bb-4772-98b1-df4941938e4d")
-	)
 	(bus
 		(pts
 			(xy 243.84 163.83) (xy 243.84 165.1)
@@ -6895,16 +6859,6 @@
 			(type default)
 		)
 		(uuid "ac6e9305-4c0c-4ac2-a7e7-855b3a4facf0")
-	)
-	(wire
-		(pts
-			(xy 307.34 142.24) (xy 318.77 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acaee907-1573-47c3-b876-407264ff478f")
 	)
 	(wire
 		(pts
@@ -7005,16 +6959,6 @@
 			(type default)
 		)
 		(uuid "b95197dd-b655-4fc6-9181-131d757816b9")
-	)
-	(wire
-		(pts
-			(xy 307.34 147.32) (xy 318.77 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bebdc393-13b5-4bc2-9f8a-556e8f8ad714")
 	)
 	(bus
 		(pts
@@ -7388,18 +7332,6 @@
 		)
 		(uuid 71880c8d-ae4e-4916-9a30-ac8c8a19dde0)
 	)
-	(rectangle
-		(start 295.91 133.35)
-		(end 334.01 161.29)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f7c5d3e3-af98-4ff3-9d10-4b24454fea59)
-	)
 	(text "NC    - Boot from SPI Flash\nPress - USB bootloader"
 		(exclude_from_sim no)
 		(at 97.79 198.12 0)
@@ -7459,16 +7391,6 @@
 		)
 		(uuid "c5eea162-5bd2-47d3-a98f-09f866fc0160")
 	)
-	(text "ToDo: Add SPI RAM"
-		(exclude_from_sim no)
-		(at 314.198 153.162 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e1228dc1-4eb7-44d0-a7fc-65fb3362f3b4")
-	)
 	(text "SPI FLASH"
 		(exclude_from_sim no)
 		(at 99.314 143.764 0)
@@ -7480,17 +7402,6 @@
 			)
 		)
 		(uuid "f388e16e-aaf7-4e02-bdaf-466755c74e73")
-	)
-	(label "SPI.MOSI"
-		(at 307.34 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02a1532d-a1c1-4096-8392-014b429f118e")
 	)
 	(label "SPI.MISO"
 		(at 232.41 132.08 0)
@@ -7535,17 +7446,6 @@
 			(justify left bottom)
 		)
 		(uuid "1abad82a-a3c0-4960-a554-bb7217adc79c")
-	)
-	(label "SPI.SCK"
-		(at 307.34 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30fdacbe-1327-4cdc-9f02-b2c4e973dc5c")
 	)
 	(label "USB_DM"
 		(at 168.91 147.32 0)
@@ -7712,17 +7612,6 @@
 		)
 		(uuid "980e8c52-cb02-49d0-9cc1-c3fbca3ddc32")
 	)
-	(label "SPI.~{CS2}"
-		(at 307.34 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4e10de0-dd62-4b24-a177-b1d85cf75613")
-	)
 	(label "QSPI_SD0"
 		(at 168.91 154.94 0)
 		(fields_autoplaced yes)
@@ -7843,17 +7732,6 @@
 			(justify left bottom)
 		)
 		(uuid "e5b59ef4-6926-4650-a933-0744efd56e4c")
-	)
-	(label "SPI.MISO"
-		(at 307.34 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eab6bcce-fb2b-42b1-af7d-388eddb2a1f1")
 	)
 	(label "I2S.WS"
 		(at 232.41 157.48 0)
