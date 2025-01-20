@@ -10290,17 +10290,6 @@
 		)
 		(uuid "fb534a61-2345-4707-b1c1-0ec10bea0bbc")
 	)
-	(label "USB2_CC2"
-		(at 158.75 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02d93185-d5fa-4932-8e3e-52711289da85")
-	)
 	(label "USB2_VBUS"
 		(at 233.68 200.66 0)
 		(fields_autoplaced yes)
@@ -10312,8 +10301,8 @@
 		)
 		(uuid "0b9600b1-20a7-40bf-8f57-e55c61cc734e")
 	)
-	(label "USB1_D_N"
-		(at 158.75 97.79 0)
+	(label "USB2.D_N"
+		(at 158.75 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10321,7 +10310,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0bb9ac1f-e2fd-4bfe-a18b-3431cf829c67")
+		(uuid "12a8bf1e-957b-46c8-befe-2ee46abe387f")
+	)
+	(label "USB2_CC2"
+		(at 158.75 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e3c17ab-d5a8-4ebb-ac30-aa5afd3d295e")
 	)
 	(label "USB1_VBUS"
 		(at 233.68 195.58 0)
@@ -10333,6 +10333,17 @@
 			(justify left bottom)
 		)
 		(uuid "23a531cd-f92f-4528-aeae-e45f05206573")
+	)
+	(label "USB2.D_P"
+		(at 158.75 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33916757-72cd-48d4-a574-c9222d070689")
 	)
 	(label "USB1_CC2"
 		(at 140.97 77.47 180)
@@ -10367,8 +10378,8 @@
 		)
 		(uuid "44c7323b-e0c2-4553-a58c-996b421092f0")
 	)
-	(label "USB2_CC1"
-		(at 158.75 151.13 0)
+	(label "USB1.D_N"
+		(at 158.75 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10376,18 +10387,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "50c195fd-2c47-4e3a-aae0-9c9018fd12e9")
-	)
-	(label "USB1_CC2"
-		(at 158.75 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6161d1e1-4c54-4d56-8a87-87207395f6a2")
+		(uuid "484174cb-64ba-46b6-8113-603dd6dfc0ce")
 	)
 	(label "USB1.D_P"
 		(at 138.43 87.63 0)
@@ -10411,6 +10411,17 @@
 		)
 		(uuid "67521287-de88-455c-8694-6cccdedac4b9")
 	)
+	(label "USB2_CC1"
+		(at 158.75 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76db8bed-b295-43f7-8f5e-d4b075a0ff3f")
+	)
 	(label "USB2_VBUS"
 		(at 238.76 107.95 0)
 		(fields_autoplaced yes)
@@ -10422,7 +10433,7 @@
 		)
 		(uuid "7c336ad0-f306-4bae-8fb4-a46d9a109738")
 	)
-	(label "USB1_CC1"
+	(label "USB1_CC2"
 		(at 158.75 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10431,18 +10442,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "89840fa7-0784-4af9-9d25-c993eb59add4")
-	)
-	(label "USB1_D_P"
-		(at 158.75 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c00dc2d-9d47-4613-b0d5-2cf2f362875b")
+		(uuid "ad052c2d-83e4-474d-8c58-2d2c564545e4")
 	)
 	(label "USB2.D_P"
 		(at 142.24 138.43 0)
@@ -10454,17 +10454,6 @@
 			(justify left bottom)
 		)
 		(uuid "b19afcc5-9fe6-4f5a-bec9-dfe1fff25526")
-	)
-	(label "USB2_D_N"
-		(at 158.75 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbd49c46-9124-48cf-ae21-25099232f44b")
 	)
 	(label "USB1_VBUS"
 		(at 236.22 66.04 0)
@@ -10488,6 +10477,17 @@
 		)
 		(uuid "c530e754-d9d4-4a8c-88bb-20e4dd65a5e2")
 	)
+	(label "USB1_CC1"
+		(at 158.75 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5e99fb4-1697-46e3-8e6d-2932e145fe76")
+	)
 	(label "USB2.D_N"
 		(at 142.24 140.97 0)
 		(fields_autoplaced yes)
@@ -10499,17 +10499,6 @@
 		)
 		(uuid "c7166c9a-a1c7-4865-a66f-ee535e4c07a9")
 	)
-	(label "USB2_D_P"
-		(at 158.75 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7ebde3d-5820-4fc1-b525-6e6c98b760cb")
-	)
 	(label "USB1_CC1"
 		(at 140.97 74.93 180)
 		(fields_autoplaced yes)
@@ -10520,6 +10509,17 @@
 			(justify right bottom)
 		)
 		(uuid "d04ec9d0-32f6-4caa-88d3-41cab6e65250")
+	)
+	(label "USB1.D_P"
+		(at 158.75 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9cfe2da-1887-4e8b-a2be-e5ca7e802a1e")
 	)
 	(label "USB2_VBUS"
 		(at 227.33 120.65 180)
