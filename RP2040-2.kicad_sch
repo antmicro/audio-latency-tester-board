@@ -5,7 +5,7 @@
 	(uuid "5a4e75e6-fdff-40dc-b04a-8a3f866d3103")
 	(paper "A3")
 	(title_block
-		(title "audio-latency-processing-board")
+		(title "Audio Latency Processing Board")
 		(date "2025-01-07")
 		(rev "1.1.0")
 	)
