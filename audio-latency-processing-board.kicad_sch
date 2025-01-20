@@ -17,7 +17,7 @@
 		(members "SD" "SCK" "WS")
 	)
 	(bus_alias "SPI"
-		(members "MISO" "MOSI" "SCK" "~{CS1}" "~{CS2}")
+		(members "MISO" "MOSI" "SCK" "~{CS1}" "~{CS0}")
 	)
 	(bus_alias "TRIG"
 		(members "TRIG1" "TRIG2" "TRIG3")
@@ -234,16 +234,6 @@
 			)
 			(uuid "9e536ddd-f04b-452f-b49b-36c0687903ed")
 		)
-		(pin "I2C{I2C}" input
-			(at 182.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3f31ae01-a7c3-4d16-8edd-3faffcfd583b")
-		)
 		(pin "TRIGGER{TRIG}" input
 			(at 182.88 123.19 0)
 			(effects
@@ -254,16 +244,6 @@
 			)
 			(uuid "5f43f749-4e03-4da3-a994-7c6aed7333da")
 		)
-		(pin "SPI{SPI}" input
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f65f54c3-8716-44f9-b943-7adb4d570d9b")
-		)
 		(pin "USB{USB}" input
 			(at 182.88 138.43 0)
 			(effects
@@ -273,6 +253,26 @@
 				(justify right)
 			)
 			(uuid "886c7545-b516-4514-8d84-e53d429d8776")
+		)
+		(pin "I2C0{I2C}" input
+			(at 182.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "689e26d8-385a-4103-a9ce-c920204c828f")
+		)
+		(pin "SPI0{SPI}" input
+			(at 182.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d44a029e-2f13-4218-85b1-cb58958168a1")
 		)
 		(instances
 			(project "audio-latency-processing-board"
@@ -533,16 +533,6 @@
 				(justify left top)
 			)
 		)
-		(pin "I2S{I2S}" output
-			(at 232.41 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2148fbd9-d181-47b0-b837-ec6ab053cf63")
-		)
 		(pin "TRIGGER{TRIG}" input
 			(at 200.66 123.19 180)
 			(effects
@@ -553,36 +543,6 @@
 			)
 			(uuid "8e9c0bcd-58eb-4f9e-b7e3-200819e51eae")
 		)
-		(pin "SPI{SPI}" input
-			(at 200.66 129.54 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5b0bebce-d54d-491b-a39c-26ed5cdeb60f")
-		)
-		(pin "I2C1{I2C}" input
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2ff3dbb7-07ab-4f6d-9857-6401fd2b38a7")
-		)
-		(pin "I2C2{I2C}" input
-			(at 200.66 133.35 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6469106e-dd15-421b-98e5-7de74dac2f27")
-		)
 		(pin "USB{USB}" input
 			(at 200.66 138.43 180)
 			(effects
@@ -592,6 +552,46 @@
 				(justify left)
 			)
 			(uuid "8a6f23a7-a419-4957-9cd9-5e9253766680")
+		)
+		(pin "I2C1{I2C}" input
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0210fd7f-34a1-4460-8aad-582bbfd5c9eb")
+		)
+		(pin "I2S{I2S}" input
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22ce6dc8-1b31-4721-8cd9-3c9721390e91")
+		)
+		(pin "I2C0{I2C}" input
+			(at 200.66 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f648da8c-d51a-44e6-badb-0f180d050fba")
+		)
+		(pin "SPI0{SPI}" input
+			(at 200.66 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c156e1d1-2fd9-4ea9-b412-2f97dc114bd1")
 		)
 		(instances
 			(project "audio-latency-processing-board"
