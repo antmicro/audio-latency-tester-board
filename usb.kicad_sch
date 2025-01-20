@@ -7311,6 +7311,12 @@
 		(uuid "0f11f39e-82e5-4d69-a12a-fdfc68616549")
 	)
 	(junction
+		(at 238.76 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "127b9ecf-0c81-4c1a-a076-f47438d2c238")
+	)
+	(junction
 		(at 171.45 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7393,6 +7399,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4be23798-0655-4e2f-bda1-5af353fc8797")
+	)
+	(junction
+		(at 238.76 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "516211ff-f0b6-455f-adf1-f39ac2122f8c")
 	)
 	(junction
 		(at 287.02 107.95)
@@ -7786,7 +7798,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 66.04) (xy 252.73 66.04)
+			(xy 232.41 66.04) (xy 238.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8476,6 +8488,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 72.39) (xy 238.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54acb26e-28ce-49b4-992a-e69d627b0d0c")
+	)
+	(wire
+		(pts
 			(xy 292.1 181.61) (xy 292.1 182.88)
 		)
 		(stroke
@@ -8786,6 +8808,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 107.95) (xy 238.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8dbf4e-f023-4a42-abcf-b9e3abd0e587")
+	)
+	(wire
+		(pts
 			(xy 265.43 77.47) (xy 265.43 78.74)
 		)
 		(stroke
@@ -8843,6 +8875,16 @@
 			(type default)
 		)
 		(uuid "715a3a96-5e2f-4342-bb80-6c51d9c07e35")
+	)
+	(wire
+		(pts
+			(xy 238.76 107.95) (xy 255.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729612c8-200e-432f-b52c-f3bff2365dcb")
 	)
 	(wire
 		(pts
@@ -9226,7 +9268,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 107.95) (xy 255.27 107.95)
+			(xy 232.41 107.95) (xy 238.76 107.95)
 		)
 		(stroke
 			(width 0)
@@ -9293,6 +9335,16 @@
 			(type default)
 		)
 		(uuid "a2817a43-a3c3-4d7f-871d-f9f37ce60174")
+	)
+	(wire
+		(pts
+			(xy 238.76 114.3) (xy 238.76 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28a2ff2-1134-45c3-991c-0b05cb48707d")
 	)
 	(wire
 		(pts
@@ -9453,6 +9505,16 @@
 			(type default)
 		)
 		(uuid "abd96c31-140b-4855-881a-a83a2532a8a6")
+	)
+	(wire
+		(pts
+			(xy 238.76 66.04) (xy 238.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf9a5ec-d484-4907-8924-ca658b3d332b")
 	)
 	(wire
 		(pts
@@ -9733,6 +9795,16 @@
 			(type default)
 		)
 		(uuid "cd4eefdb-cea0-47db-b3dd-f284e8050360")
+	)
+	(wire
+		(pts
+			(xy 238.76 66.04) (xy 252.73 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce712e79-d3c2-4983-b2e4-5713497ac2ed")
 	)
 	(wire
 		(pts
@@ -10403,7 +10475,7 @@
 		(uuid "76db8bed-b295-43f7-8f5e-d4b075a0ff3f")
 	)
 	(label "USB2_VBUS"
-		(at 238.76 107.95 0)
+		(at 232.41 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10436,7 +10508,7 @@
 		(uuid "b19afcc5-9fe6-4f5a-bec9-dfe1fff25526")
 	)
 	(label "USB1_VBUS"
-		(at 236.22 66.04 0)
+		(at 232.41 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16783,6 +16855,101 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
+		(at 238.76 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "665f21e8-bcb2-4fe4-bf9f-3a74415b9b42")
+		(property "Reference" "#PWR0155"
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d09b1d9c-c225-4877-9cad-a4efb9080b47")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/56bafe6d-387a-4336-ac60-a2cbd3a9ff58"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
 		(at 190.5 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20745,6 +20912,101 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
+		(at 238.76 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aefa89a2-facf-434f-8102-6260d2c65870")
+		(property "Reference" "#PWR0154"
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85e5e954-b5fe-4078-b3e2-96eedffbd5fd")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/56bafe6d-387a-4336-ac60-a2cbd3a9ff58"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
 		(at 171.45 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22481,6 +22743,156 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/56bafe6d-387a-4336-ac60-a2cbd3a9ff58"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_10u_10V_0402")
+		(at 238.76 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db98636b-e5df-4123-997a-8118ca6b301c")
+		(property "Reference" "C57"
+			(at 236.22 68.5736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_10u_10V_0402"
+			(at 248.92 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 251.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23"
+			(at 254 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 10 VDC 20% 0402 X5R"
+			(at 238.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME11D"
+			(at 256.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 261.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 264.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 236.22 71.1136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 266.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70f876c4-401d-4664-8dee-9890216e866d")
+		)
+		(pin "1"
+			(uuid "bbdd991f-15fe-40d3-93b3-eef6f5b9a6aa")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/56bafe6d-387a-4336-ac60-a2cbd3a9ff58"
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -24527,6 +24939,156 @@
 			(project ""
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/56bafe6d-387a-4336-ac60-a2cbd3a9ff58"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_10u_10V_0402")
+		(at 238.76 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe4ac323-efdd-4b24-a538-59028b0b10d3")
+		(property "Reference" "C58"
+			(at 236.22 110.4836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_10u_10V_0402"
+			(at 248.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23"
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 10 VDC 20% 0402 X5R"
+			(at 238.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME11D"
+			(at 256.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 259.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 261.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 264.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 236.22 113.0236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 269.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1fadd6f-a740-4f97-9a03-6e8436240b61")
+		)
+		(pin "1"
+			(uuid "397d9f7a-002e-4438-9731-953acfd256f3")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/56bafe6d-387a-4336-ac60-a2cbd3a9ff58"
+					(reference "C58")
 					(unit 1)
 				)
 			)
