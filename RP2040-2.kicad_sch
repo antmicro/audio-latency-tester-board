@@ -8641,7 +8641,6 @@
 					(thickness 0.15)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
@@ -13569,7 +13568,6 @@
 					(thickness 0.15)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
