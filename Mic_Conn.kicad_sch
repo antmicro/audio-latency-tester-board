@@ -2995,9 +2995,9 @@
 		)
 		(uuid fcf0b1dd-f925-4c41-ba76-cd04510cd6e0)
 	)
-	(text "L_MIC"
+	(text "Left Microphone Connector"
 		(exclude_from_sim no)
-		(at 169.926 67.31 0)
+		(at 149.86 67.564 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3007,9 +3007,9 @@
 		)
 		(uuid "00712873-fff7-4c84-a668-fae1fa6f18ec")
 	)
-	(text "Debug I2S Conn"
+	(text "Debug I2S Connector"
 		(exclude_from_sim no)
-		(at 323.85 143.002 0)
+		(at 319.024 143.002 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3062,9 +3062,9 @@
 		)
 		(uuid "6def1687-9a79-4d28-8bdb-f0aedcd645ac")
 	)
-	(text "R_MIC"
+	(text "Right Microphone Connector"
 		(exclude_from_sim no)
-		(at 169.164 144.018 0)
+		(at 147.828 143.51 0)
 		(effects
 			(font
 				(size 2.54 2.54)

@@ -5797,9 +5797,9 @@
 		)
 		(uuid "06b7a744-9c98-4f2a-98fb-f4a3ac7e6c07")
 	)
-	(text "Speaker conn"
+	(text "Speaker Connector"
 		(exclude_from_sim no)
-		(at 318.77 74.93 0)
+		(at 313.944 74.93 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5811,7 +5811,7 @@
 	)
 	(text "AMP"
 		(exclude_from_sim no)
-		(at 260.35 76.2 0)
+		(at 258.572 76.454 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5821,9 +5821,9 @@
 		)
 		(uuid "53792e0c-16b5-40af-b863-0ff544c56c3c")
 	)
-	(text "Debug I2C Conn"
+	(text "Debug I2C Connector"
 		(exclude_from_sim no)
-		(at 241.3 178.562 0)
+		(at 235.712 178.816 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5853,9 +5853,9 @@
 		)
 		(uuid "785797d0-15d0-49e2-987f-70825905724e")
 	)
-	(text "Debug I2S Conn"
+	(text "Debug I2S Connector"
 		(exclude_from_sim no)
-		(at 316.23 178.562 0)
+		(at 311.15 178.562 0)
 		(effects
 			(font
 				(size 2.54 2.54)
