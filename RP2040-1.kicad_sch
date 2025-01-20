@@ -7094,7 +7094,7 @@
 		)
 		(uuid "7b3c1540-aded-4032-8a54-ff6f400a8a42")
 	)
-	(text "C26 close to \nMCU pin 44"
+	(text "C10 close to \nMCU pin 44"
 		(exclude_from_sim no)
 		(at 149.606 91.948 0)
 		(effects
