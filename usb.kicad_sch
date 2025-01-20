@@ -12720,7 +12720,7 @@
 		(dnp yes)
 		(uuid "1daea0a3-0674-440d-bfad-f6803cb91503")
 		(property "Reference" "R38"
-			(at 202.184 57.15 0)
+			(at 200.66 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12735,6 +12735,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
@@ -12791,7 +12792,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 207.264 59.69 0)
+			(at 197.866 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12800,7 +12801,7 @@
 			)
 		)
 		(property "Max. Curr." "22.4A"
-			(at 212.344 59.69 0)
+			(at 202.946 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20258,7 +20259,7 @@
 		(dnp yes)
 		(uuid "a632869f-1013-4e6f-b866-246ad1ee4fd2")
 		(property "Reference" "R7"
-			(at 202.184 107.95 0)
+			(at 200.914 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20273,6 +20274,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
@@ -20329,7 +20331,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 207.264 110.49 0)
+			(at 197.866 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20338,7 +20340,7 @@
 			)
 		)
 		(property "Max. Curr." "22.4A"
-			(at 212.344 110.49 0)
+			(at 202.946 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
