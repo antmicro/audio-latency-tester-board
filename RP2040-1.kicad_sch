@@ -5295,18 +5295,6 @@
 		(uuid "2673537d-c19c-428d-aef7-9c86ef01bb93")
 	)
 	(junction
-		(at 257.81 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ca6f347-3e3f-4226-9d28-5f872e7035db")
-	)
-	(junction
-		(at 250.19 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d0b541e-8b2f-45c0-86b1-71270a7f0ea3")
-	)
-	(junction
 		(at 109.22 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5329,6 +5317,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "501f519b-9334-4c54-887a-dbfd03f41670")
+	)
+	(junction
+		(at 243.84 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "542f89ce-12bd-4b2e-9b6e-872821bc2378")
 	)
 	(junction
 		(at 194.31 100.33)
@@ -5391,10 +5385,28 @@
 		(uuid "a12978b7-8bd6-4792-bbc9-17dd61f8b00d")
 	)
 	(junction
+		(at 243.84 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab295987-efd7-4144-8060-94740caba064")
+	)
+	(junction
 		(at 135.89 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abfb2a0d-f7fc-4fc8-b859-b7a213bc4102")
+	)
+	(junction
+		(at 261.62 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0a7b08d-0dad-4560-880b-af713346ceed")
+	)
+	(junction
+		(at 261.62 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b89405bd-9e7c-4e96-a8cf-cb226982332c")
 	)
 	(junction
 		(at 128.27 133.35)
@@ -5431,18 +5443,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcaf0c46-9c8c-4b86-8ad7-245196c16a6c")
-	)
-	(junction
-		(at 257.81 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e35d436e-b265-4446-bc35-71bcc791118d")
-	)
-	(junction
-		(at 250.19 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5698b10-62d7-4651-a4e7-4c1066cd2a55")
 	)
 	(junction
 		(at 194.31 105.41)
@@ -5760,7 +5760,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 123.19) (xy 250.19 120.65)
+			(xy 243.84 123.19) (xy 243.84 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5800,16 +5800,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 120.65) (xy 274.32 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3bb91f-62b8-4c7f-9ffd-04485853e692")
-	)
-	(wire
-		(pts
 			(xy 163.83 187.96) (xy 163.83 186.69)
 		)
 		(stroke
@@ -5837,16 +5827,6 @@
 			(type default)
 		)
 		(uuid "15960cac-5b01-43aa-9ac5-90f121bc3f98")
-	)
-	(wire
-		(pts
-			(xy 250.19 120.65) (xy 252.73 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "166f67a9-59f5-432e-9eaa-c3769a9b7adb")
 	)
 	(wire
 		(pts
@@ -5900,7 +5880,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 118.11) (xy 257.81 118.11)
+			(xy 250.19 118.11) (xy 251.46 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6130,7 +6110,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 115.57) (xy 257.81 118.11)
+			(xy 261.62 115.57) (xy 261.62 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6150,7 +6130,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 115.57) (xy 250.19 115.57)
+			(xy 251.46 115.57) (xy 243.84 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6240,13 +6220,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 118.11) (xy 274.32 118.11)
+			(xy 261.62 118.11) (xy 274.32 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d54f4b2-ef6e-4fe1-87d3-861e8e56de14")
+		(uuid "4e8b3f6c-ecee-40e8-8227-2284bc494b4e")
 	)
 	(wire
 		(pts
@@ -6260,7 +6240,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 123.19) (xy 250.19 123.19)
+			(xy 251.46 123.19) (xy 243.84 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6300,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 120.65) (xy 257.81 120.65)
+			(xy 250.19 120.65) (xy 251.46 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6317,6 +6297,16 @@
 			(type default)
 		)
 		(uuid "61cfd76d-8c11-4815-a359-eb55b8a5692c")
+	)
+	(wire
+		(pts
+			(xy 243.84 120.65) (xy 247.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62078216-8971-4669-9ac9-37a2789f6552")
 	)
 	(wire
 		(pts
@@ -6340,7 +6330,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 118.11) (xy 255.27 120.65)
+			(xy 247.65 118.11) (xy 250.19 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6610,7 +6600,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 123.19) (xy 257.81 120.65)
+			(xy 261.62 123.19) (xy 261.62 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6720,13 +6710,23 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 118.11) (xy 252.73 120.65)
+			(xy 250.19 118.11) (xy 247.65 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9ec39f68-8c95-4d90-97a2-4b7c0060dcd0")
+	)
+	(wire
+		(pts
+			(xy 243.84 118.11) (xy 247.65 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f10b6e5-3b46-4e88-a866-737dc4263037")
 	)
 	(wire
 		(pts
@@ -6750,7 +6750,17 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 115.57) (xy 250.19 118.11)
+			(xy 256.54 118.11) (xy 261.62 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10dd0e8-3c50-445c-be40-060b6b04f87a")
+	)
+	(wire
+		(pts
+			(xy 243.84 115.57) (xy 243.84 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6810,7 +6820,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 115.57) (xy 257.81 115.57)
+			(xy 256.54 115.57) (xy 261.62 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6830,23 +6840,23 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 123.19) (xy 257.81 123.19)
+			(xy 256.54 120.65) (xy 261.62 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad857b50-d2f9-41fe-8b93-7e64ab4bf1e3")
+	)
+	(wire
+		(pts
+			(xy 256.54 123.19) (xy 261.62 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b09e47e3-5363-471b-a4fd-6efbf96c138d")
-	)
-	(wire
-		(pts
-			(xy 250.19 118.11) (xy 252.73 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b34d2109-6723-4333-baaa-02db7a6dfd3a")
 	)
 	(wire
 		(pts
@@ -7050,6 +7060,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 120.65) (xy 274.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51298e1-c297-4429-928d-645666fcf3f3")
+	)
+	(wire
+		(pts
 			(xy 111.76 190.5) (xy 111.76 191.77)
 		)
 		(stroke
@@ -7090,7 +7110,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 120.65) (xy 250.19 120.65)
+			(xy 236.22 120.65) (xy 243.84 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7190,7 +7210,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 118.11) (xy 250.19 118.11)
+			(xy 236.22 118.11) (xy 243.84 118.11)
 		)
 		(stroke
 			(width 0)
@@ -8601,6 +8621,155 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 251.46 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "121c640d-6219-4825-b83b-1920b6dfd577")
+		(property "Reference" "R60"
+			(at 249.682 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 271.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 271.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 271.78 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 251.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 271.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 271.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 271.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 271.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 257.556 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 271.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1590daf-c02a-4514-bfd8-e49aefa4087a")
+		)
+		(pin "2"
+			(uuid "a33d2486-1016-4427-bfdf-fa6c00e29dad")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -14457,6 +14626,155 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
 					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 251.46 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb1979b7-db34-47e5-871d-944cc322bf94")
+		(property "Reference" "R61"
+			(at 249.682 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 271.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 271.78 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 271.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 251.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 271.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 271.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 271.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 258.064 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 271.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 271.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2c60b4d-1d7e-4732-8d5c-4ede3a1b8a0f")
+		)
+		(pin "2"
+			(uuid "5160b2e3-4ca9-4712-97a8-57112137c01f")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
+					(reference "R61")
 					(unit 1)
 				)
 			)
