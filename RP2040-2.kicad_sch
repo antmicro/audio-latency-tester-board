@@ -836,229 +836,6 @@
 				)
 			)
 		)
-		(symbol "antmicroDiodesRectifiersSingle:RB521S30T1G"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 22.86 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "RB521S30T1G"
-				(at 22.86 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:SOD-523"
-				(at 22.86 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
-				(at 22.86 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 °C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "RB521S30T1G"
-				(at 22.86 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "ON Semiconductor"
-				(at 22.86 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 22.86 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 22.86 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, SEMICONDUCTOR, DIODE, SCHOTTKY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RB521S30T1G_0_1"
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RB521S30T1G_1_1"
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -1.016) (xy 2.159 -1.016) (xy 2.159 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.397 1.016) (xy 1.397 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "antmicroLEDIndicationDiscrete:LED_G_0603_KP-1608CGCK"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -3210,426 +2987,6 @@
 				)
 			)
 		)
-		(symbol "antmicroResistorNetworksArrays:R_4x0R_0201_array"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 26.67 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_4x0R_0201_array"
-				(at 26.67 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-				(at 26.67 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-				(at 26.67 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zero Ohm Network Resistor, Jumper, 0201 [0603 Metric], Thick Film, Isolated, Flat, 4 Resistors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "EXB-18VR000X"
-				(at 26.67 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Panasonic"
-				(at 26.67 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "4x0R_0201"
-				(at 26.67 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 26.67 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 26.67 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0201, SMT, RESISTOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_4x0R_0201_array_0_1"
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 3.175 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 3.175 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -7.62) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.667 1.27)
-					(end 7.493 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 6.985 -6.985)
-					(end 3.175 -8.255)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.985 -4.445)
-					(end 3.175 -5.715)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.985 -1.905)
-					(end 3.175 -3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.985 0.635)
-					(end 3.175 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_4x0R_0201_array_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 2.54)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "antmicroResistors0402:R_0R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -5638,510 +4995,6 @@
 				)
 			)
 		)
-		(symbol "antmicroTestPoints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 38.1 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
-				(at 38.1 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
-				(at 38.1 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
-				(at 38.1 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tag Connect 2x5 1.27mm terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "TC2050-IDC-NL"
-				(at 38.1 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Tag Connect"
-				(at 38.1 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 38.1 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 38.1 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "POGO-PIN, CONNECTOR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm_1_1"
-				(polyline
-					(pts
-						(xy 13.97 -8.636) (xy 15.875 -8.636) (xy 16.51 -8.001) (xy 16.51 -2.921) (xy 15.24 -1.016) (xy 13.97 -1.016)
-						(xy 12.7 -2.921) (xy 12.7 -8.001) (xy 13.335 -8.636) (xy 13.97 -8.636)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 2.54)
-					(end 26.67 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 13.843 -7.5184)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 14.097 -6.4008)
-					(radius 0.2032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 14.097 -5.6388)
-					(radius 0.2032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 14.097 -4.9276)
-					(radius 0.2032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 14.097 -4.1656)
-					(radius 0.2032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 14.097 -3.4544)
-					(radius 0.2032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 14.605 -2.1336)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 15.113 -6.4008)
-					(radius 0.2032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 15.113 -5.6388)
-					(radius 0.2032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 15.113 -4.9276)
-					(radius 0.2032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 15.113 -4.1656)
-					(radius 0.2032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 15.113 -3.4544)
-					(radius 0.2032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 15.4686 -7.5184)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "ALT: 3.3V I2C/JTAG/SPI/SWD/FTDI"
-					(at 14.732 -11.938 0)
-					(effects
-						(font
-							(size 0.7 0.7)
-						)
-					)
-				)
-				(text "Tag-Connect"
-					(at 14.605 1.651 0)
-					(effects
-						(font
-							(size 0.7 0.7)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "3V3" passive line)
-				)
-				(pin passive line
-					(at 29.21 0 180)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADBUS5" passive line)
-					(alternate "I2C_NC" passive line)
-					(alternate "JTAG_~{RESET}" passive line)
-					(alternate "SPI_NC" passive line)
-					(alternate "SWD_NC" passive line)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADBUS3" passive line)
-					(alternate "I2C_NC" passive line)
-					(alternate "JTAG_TMS" passive line)
-					(alternate "SPI_CS" passive line)
-					(alternate "SWD_NC" passive line)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GND" passive line)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADBUS0" passive line)
-					(alternate "I2C_SCL" passive line)
-					(alternate "JTAG_TCK" passive line)
-					(alternate "SPI_SCK" passive line)
-					(alternate "SWD_CLK" passive line)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GND" passive line)
-				)
-				(pin passive line
-					(at 29.21 -10.16 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADBUS2" passive line)
-					(alternate "I2C_SDA" passive line)
-					(alternate "JTAG_TDO" passive line)
-					(alternate "SPI_MISO" passive line)
-					(alternate "SWD_IO" passive line)
-				)
-				(pin passive line
-					(at 29.21 -7.62 180)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "NC" passive line)
-				)
-				(pin passive line
-					(at 29.21 -5.08 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADBUS1" passive line)
-					(alternate "I2C_SDA" passive line)
-					(alternate "JTAG_TDI" passive line)
-					(alternate "SPI_MOSI" passive line)
-					(alternate "SWD_IO" passive line)
-				)
-				(pin passive line
-					(at 29.21 -2.54 180)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GND" passive line)
-				)
-			)
-		)
 		(symbol "antmicroTransistorsFETsMOSFETsSingle:PJE138K"
 			(pin_names
 				(offset 0)
@@ -6875,93 +5728,6 @@
 				)
 			)
 		)
-		(symbol "antmicropower:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 238.76 105.41)
@@ -6986,12 +5752,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18487665-4be7-4ca2-981e-bd859fb34140")
-	)
-	(junction
-		(at 328.93 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b746c59-2759-445d-a35c-325d9401ef7e")
 	)
 	(junction
 		(at 148.59 110.49)
@@ -7078,12 +5838,6 @@
 		(uuid "7df5604f-1e3c-4d60-b587-ed5d861386bb")
 	)
 	(junction
-		(at 293.37 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ecabedc-2a9b-486b-b700-6cf643922484")
-	)
-	(junction
 		(at 138.43 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7112,12 +5866,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e21b5e4-0f17-4b42-a08f-08d2b608f9c5")
-	)
-	(junction
-		(at 328.93 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a83a71da-30af-44c0-b049-a36d992f8362")
 	)
 	(junction
 		(at 232.41 105.41)
@@ -7178,7 +5926,7 @@
 		(uuid "61eb919c-c936-4791-9184-6c8080e354f0")
 	)
 	(no_connect
-		(at 304.8 129.54)
+		(at 308.61 124.46)
 		(uuid "6759dbdd-5049-4598-bd19-5482cedd7a68")
 	)
 	(no_connect
@@ -7202,16 +5950,8 @@
 		(uuid "b1bd51f8-caf2-4084-ad9f-a0ebaf710017")
 	)
 	(no_connect
-		(at 326.39 195.58)
-		(uuid "b9cc1637-c413-44ba-96a1-fcb250b25044")
-	)
-	(no_connect
-		(at 304.8 127)
+		(at 308.61 121.92)
 		(uuid "cba2bb5e-8c6b-4979-b2de-0d50fe8a1724")
-	)
-	(no_connect
-		(at 326.39 187.96)
-		(uuid "f6cf8703-3fe1-4e51-8f9d-331736f48a56")
 	)
 	(bus_entry
 		(at 259.08 163.83)
@@ -7356,16 +6096,6 @@
 			(type default)
 		)
 		(uuid "c843b51c-e122-428e-8512-4b067b971220")
-	)
-	(wire
-		(pts
-			(xy 317.5 110.49) (xy 328.93 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02578d1c-13c8-41d8-8d9d-e6544f067ff0")
 	)
 	(wire
 		(pts
@@ -7527,16 +6257,6 @@
 		)
 		(uuid "1c8d0e54-07c9-4a22-a81d-705a0766a031")
 	)
-	(wire
-		(pts
-			(xy 326.39 193.04) (xy 336.55 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ccaa4d7-4d1a-45ec-bc9c-dcfc37f4bcf5")
-	)
 	(bus
 		(pts
 			(xy 111.76 142.24) (xy 111.76 143.51)
@@ -7559,16 +6279,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 172.72) (xy 328.93 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "200f07ec-8e6e-42e9-956c-19312a95e128")
-	)
-	(wire
-		(pts
 			(xy 82.55 132.08) (xy 82.55 133.35)
 		)
 		(stroke
@@ -7576,16 +6286,6 @@
 			(type default)
 		)
 		(uuid "217e3a77-c0e6-4941-acb0-5fc08557f32c")
-	)
-	(wire
-		(pts
-			(xy 328.93 110.49) (xy 328.93 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2266da04-89d7-400d-99ec-bc49026685f9")
 	)
 	(wire
 		(pts
@@ -7606,16 +6306,6 @@
 			(type default)
 		)
 		(uuid "2325f14f-59b7-4cc8-8229-4630c588db5e")
-	)
-	(wire
-		(pts
-			(xy 293.37 193.04) (xy 293.37 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237ab9e3-5abf-4c80-9e26-cf1d5283a392")
 	)
 	(wire
 		(pts
@@ -7719,16 +6409,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 198.12) (xy 336.55 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d8be944-6556-4869-8de4-909aba48abe8")
-	)
-	(wire
-		(pts
 			(xy 132.08 87.63) (xy 138.43 87.63)
 		)
 		(stroke
@@ -7756,16 +6436,6 @@
 			(type default)
 		)
 		(uuid "3032e518-484d-4168-a459-f8a54073fe8e")
-	)
-	(wire
-		(pts
-			(xy 293.37 198.12) (xy 293.37 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "337ad8f8-b1df-476e-8fa9-7e84d687da48")
 	)
 	(wire
 		(pts
@@ -7889,16 +6559,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 110.49) (xy 304.8 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "420f270b-ccc0-4a3b-8d20-c75d0f594323")
-	)
-	(wire
-		(pts
 			(xy 251.46 107.95) (xy 251.46 109.22)
 		)
 		(stroke
@@ -7926,16 +6586,6 @@
 			(type default)
 		)
 		(uuid "449b5d8a-d98b-4625-b12f-d382f5e121d1")
-	)
-	(wire
-		(pts
-			(xy 328.93 121.92) (xy 341.63 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c64012-be57-4bc4-82b0-1ffe05d89df6")
 	)
 	(bus
 		(pts
@@ -8009,16 +6659,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 167.64) (xy 307.34 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50fd6d9c-a3a0-4395-9007-ab1ebabdbd97")
-	)
-	(wire
-		(pts
 			(xy 86.36 161.29) (xy 152.4 161.29)
 		)
 		(stroke
@@ -8056,16 +6696,6 @@
 			(type default)
 		)
 		(uuid "5a103826-1c51-4526-bf9a-8dfa55901528")
-	)
-	(wire
-		(pts
-			(xy 326.39 190.5) (xy 330.2 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c72b985-4d82-4a46-b1ef-0c09bda2c96c")
 	)
 	(wire
 		(pts
@@ -8209,17 +6839,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 187.96) (xy 285.75 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7043ad03-4d6d-4fe5-92d9-e526381e53ac")
-	)
-	(wire
-		(pts
-			(xy 304.8 110.49) (xy 304.8 104.14)
+			(xy 332.74 113.03) (xy 332.74 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8249,16 +6869,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 198.12) (xy 297.18 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77a3beb9-a702-46bd-ac6e-c85f7d21fb1b")
-	)
-	(wire
-		(pts
 			(xy 148.59 87.63) (xy 148.59 100.33)
 		)
 		(stroke
@@ -8279,17 +6889,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 172.72) (xy 307.34 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b509edd-9bec-46ce-8559-64bf3dc8d0fc")
-	)
-	(wire
-		(pts
-			(xy 325.12 121.92) (xy 328.93 121.92)
+			(xy 328.93 116.84) (xy 332.74 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8399,7 +6999,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 121.92) (xy 287.02 121.92)
+			(xy 308.61 116.84) (xy 290.83 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8459,23 +7059,13 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 132.08) (xy 287.02 132.08)
+			(xy 308.61 127) (xy 290.83 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8d0444da-8a6e-435b-9d59-8e00b079bb70")
-	)
-	(wire
-		(pts
-			(xy 297.18 193.04) (xy 293.37 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d72bf57-694b-4d77-9456-c9dc1a9d4b7f")
 	)
 	(wire
 		(pts
@@ -8486,16 +7076,6 @@
 			(type default)
 		)
 		(uuid "8dd75584-4955-4a40-af3b-9040e3b98f79")
-	)
-	(wire
-		(pts
-			(xy 285.75 190.5) (xy 297.18 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea80313-02a6-4026-a209-5b449a173ab8")
 	)
 	(wire
 		(pts
@@ -8599,16 +7179,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 190.5) (xy 330.2 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff29381-b43a-4d27-8484-ab0ea1d42a77")
-	)
-	(wire
-		(pts
 			(xy 190.5 130.81) (xy 208.28 130.81)
 		)
 		(stroke
@@ -8656,16 +7226,6 @@
 			(type default)
 		)
 		(uuid "a733afd8-6c23-4c3b-8c40-7066dd4eaca4")
-	)
-	(wire
-		(pts
-			(xy 317.5 170.18) (xy 328.93 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa0f0d73-1eed-4138-8032-5a33e1f47cc9")
 	)
 	(wire
 		(pts
@@ -8749,7 +7309,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 134.62) (xy 328.93 138.43)
+			(xy 332.74 129.54) (xy 332.74 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8837,16 +7397,6 @@
 		)
 		(uuid "ce6397b5-ea52-4fe4-a946-3ecd47a7f586")
 	)
-	(wire
-		(pts
-			(xy 300.99 170.18) (xy 307.34 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf6c0f02-eab5-43fe-a844-76193ef8446e")
-	)
 	(bus
 		(pts
 			(xy 259.08 163.83) (xy 259.08 166.37)
@@ -8866,16 +7416,6 @@
 			(type default)
 		)
 		(uuid "d306457e-2f5a-4886-883c-a4669fe02887")
-	)
-	(wire
-		(pts
-			(xy 285.75 195.58) (xy 297.18 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d1dcf1-a91b-4fdb-a6ff-de00d8645bf6")
 	)
 	(wire
 		(pts
@@ -8909,16 +7449,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 175.26) (xy 307.34 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddb35629-7c8d-4e76-b403-e065fc5e429c")
-	)
-	(wire
-		(pts
 			(xy 119.38 100.33) (xy 119.38 101.6)
 		)
 		(stroke
@@ -8939,7 +7469,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 134.62) (xy 328.93 134.62)
+			(xy 328.93 129.54) (xy 332.74 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8956,16 +7486,6 @@
 			(type default)
 		)
 		(uuid "e053b170-d43c-4630-8003-74070ef8f461")
-	)
-	(wire
-		(pts
-			(xy 317.5 167.64) (xy 328.93 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0e5bdde-dbe0-44bb-be2d-c5448ca4f666")
 	)
 	(wire
 		(pts
@@ -9009,23 +7529,13 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 134.62) (xy 287.02 134.62)
+			(xy 308.61 129.54) (xy 290.83 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e81b047a-397c-444d-b2d1-6f62e69a9c26")
-	)
-	(wire
-		(pts
-			(xy 317.5 175.26) (xy 328.93 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9190fb6-20d4-42c5-ac95-7da823ad803a")
 	)
 	(wire
 		(pts
@@ -9199,7 +7709,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 124.46) (xy 287.02 124.46)
+			(xy 308.61 119.38) (xy 290.83 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9228,18 +7738,6 @@
 		(uuid "fc564255-64a0-4075-b1c1-bb98ecfc4aa0")
 	)
 	(rectangle
-		(start 281.305 153.035)
-		(end 346.71 213.36)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6f8e8cdf-88b3-482e-b156-a20759f22f57)
-	)
-	(rectangle
 		(start 55.245 55.626)
 		(end 280.416 213.36)
 		(stroke
@@ -9262,18 +7760,6 @@
 			(type none)
 		)
 		(uuid ea004cf1-446d-4700-995e-c3862c281d9b)
-	)
-	(text "Tag Connect"
-		(exclude_from_sim no)
-		(at 332.74 156.718 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "492f114d-4beb-4306-9ca4-ae2749c7968b")
 	)
 	(text "NC    - Boot from SPI Flash\nPress - USB bootloader"
 		(exclude_from_sim no)
@@ -9391,39 +7877,6 @@
 		)
 		(uuid "1065114d-6610-4e43-b0d7-2dccc8de1837")
 	)
-	(label "CS"
-		(at 285.75 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10754c9b-8c1b-4b8d-9b26-c6ebaa67025a")
-	)
-	(label "SCK"
-		(at 300.99 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12df96dd-e7d7-4920-82cd-d726ec66faac")
-	)
-	(label "SPI1.SCK"
-		(at 328.93 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d57737c-fe71-4d32-b568-d2eb07d5cf62")
-	)
 	(label "USB_DM"
 		(at 140.97 146.05 0)
 		(fields_autoplaced yes)
@@ -9434,17 +7887,6 @@
 			(justify left bottom)
 		)
 		(uuid "33d1af04-f2f1-4848-a6ff-3b0e31e87a67")
-	)
-	(label "MOSI"
-		(at 300.99 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3bf8c6b7-e20b-41e5-a6a5-11649d4d473a")
 	)
 	(label "I2S.SD"
 		(at 204.47 151.13 0)
@@ -9457,19 +7899,8 @@
 		)
 		(uuid "40093ca5-befc-4a2d-bf1f-3abb6c64ce53")
 	)
-	(label "CS"
-		(at 300.99 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4061b101-123a-46eb-b73c-a311a4c88621")
-	)
 	(label "SPI1.MISO"
-		(at 287.02 124.46 0)
+		(at 290.83 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9478,17 +7909,6 @@
 			(justify left bottom)
 		)
 		(uuid "487d4d3d-1628-48e8-bfa8-cfca55a93d4d")
-	)
-	(label "SPI1.MISO"
-		(at 328.93 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4985fbac-3a81-4000-952a-ef2a84421ded")
 	)
 	(label "XOUT"
 		(at 152.4 173.99 180)
@@ -9589,17 +8009,6 @@
 		)
 		(uuid "6572058f-8933-48ee-9002-c698dce8613b")
 	)
-	(label "SPI1.MOSI"
-		(at 328.93 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b84405c-0f44-41c4-91e0-c0a0baf16133")
-	)
 	(label "QSPI_CSn"
 		(at 140.97 166.37 0)
 		(fields_autoplaced yes)
@@ -9699,17 +8108,6 @@
 		)
 		(uuid "980e8c52-cb02-49d0-9cc1-c3fbca3ddc32")
 	)
-	(label "RAM_PWR"
-		(at 341.63 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a0a6fa31-aab4-4c52-aaf6-2b283eb27464")
-	)
 	(label "QSPI_SD0"
 		(at 140.97 153.67 0)
 		(fields_autoplaced yes)
@@ -9720,28 +8118,6 @@
 			(justify left bottom)
 		)
 		(uuid "bc04707e-c294-446e-9da1-67c0b65e25d2")
-	)
-	(label "RAM_PWR"
-		(at 285.75 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf86268f-0f4e-4896-b8e9-bc15c71978ac")
-	)
-	(label "SPI1.~{CS0}"
-		(at 328.93 175.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4818a90-e03f-4e07-ae1b-4e2dec93454c")
 	)
 	(label "I2C1.SDA"
 		(at 243.84 166.37 0)
@@ -9787,19 +8163,8 @@
 		)
 		(uuid "cce68cf4-e108-4665-9c17-9d25d08b713e")
 	)
-	(label "MISO"
-		(at 336.55 198.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cddb550c-a0f5-4df4-8e1f-41b2e559adbe")
-	)
 	(label "SPI1.MOSI"
-		(at 287.02 121.92 0)
+		(at 290.83 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9820,17 +8185,6 @@
 		)
 		(uuid "d21e0c23-5989-4ad2-95b1-06e65578ea6b")
 	)
-	(label "MOSI"
-		(at 336.55 193.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d3c2e530-4cdb-427c-beda-f1e639fd64dc")
-	)
 	(label "TRIGGER.TRIG2"
 		(at 208.28 179.07 0)
 		(fields_autoplaced yes)
@@ -9841,17 +8195,6 @@
 			(justify left bottom)
 		)
 		(uuid "d6dfccba-6b10-41aa-89a7-2c762fe5f43a")
-	)
-	(label "MISO"
-		(at 300.99 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8e6d52d-5ed1-4b16-a825-7d829ee8ee28")
 	)
 	(label "TRIGGER.TRIG3"
 		(at 208.28 181.61 0)
@@ -9887,7 +8230,7 @@
 		(uuid "e5b59ef4-6926-4650-a933-0744efd56e4c")
 	)
 	(label "SPI1.~{CS0}"
-		(at 287.02 134.62 0)
+		(at 290.83 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9897,19 +8240,8 @@
 		)
 		(uuid "e6fa4fb1-8007-408b-9b55-24b34c6d7635")
 	)
-	(label "SCK"
-		(at 285.75 195.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec52a3d1-ac90-45ec-8717-1e5a6b8d6980")
-	)
 	(label "SPI1.SCK"
-		(at 287.02 132.08 0)
+		(at 290.83 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10488,7 +8820,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 304.8 104.14 0)
+		(at 332.74 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10496,7 +8828,7 @@
 		(dnp no)
 		(uuid "165453f8-177d-45d5-9831-3c9b6bdf13b6")
 		(property "Reference" "#PWR0156"
-			(at 320.04 104.14 0)
+			(at 347.98 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10507,7 +8839,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 304.8 100.33 0)
+			(at 332.74 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10516,7 +8848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 111.76 0)
+			(at 347.98 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,7 +8859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 114.3 0)
+			(at 347.98 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10538,7 +8870,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 304.8 104.14 0)
+			(at 332.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,7 +8879,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 320.04 106.68 0)
+			(at 347.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10558,7 +8890,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 320.04 109.22 0)
+			(at 347.98 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,100 +9819,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 330.2 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b39fb60-db6a-4992-b2e7-1f4c48c4488b")
-		(property "Reference" "#PWR0159"
-			(at 339.09 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 330.2 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 339.09 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.2 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 339.09 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 339.09 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0d85d35-5e93-499b-ab3a-1520782bd1b6")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
-					(reference "#PWR0159")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
 		(at 138.43 106.68 90)
 		(unit 1)
@@ -12365,7 +10603,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 328.93 138.43 0)
+		(at 332.74 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12373,7 +10611,7 @@
 		(dnp no)
 		(uuid "31e78ada-b2a3-4484-b330-989dd74dfc16")
 		(property "Reference" "#PWR0157"
-			(at 337.82 140.97 0)
+			(at 341.63 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12384,7 +10622,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 328.93 142.24 0)
+			(at 332.74 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12393,7 +10631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 146.05 0)
+			(at 341.63 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12404,7 +10642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 151.13 0)
+			(at 341.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12415,7 +10653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 328.93 138.43 0)
+			(at 332.74 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12424,7 +10662,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 337.82 146.05 0)
+			(at 341.63 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12435,7 +10673,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 337.82 148.59 0)
+			(at 341.63 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13323,100 +11561,6 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 293.37 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48a7bf3e-03b1-4508-8b2e-6992a3e2c8a4")
-		(property "Reference" "#PWR0158"
-			(at 302.26 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 293.37 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 302.26 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 302.26 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 302.26 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "766f93d3-08a6-4bfa-9910-4b110e08f3f4")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
-					(reference "#PWR0158")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
 		(at 251.46 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13753,151 +11897,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistorNetworksArrays:R_4x0R_0201_array")
-		(at 307.34 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58570063-b5a6-4a00-999e-27b8e973b572")
-		(property "Reference" "R62"
-			(at 312.42 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_4x0R_0201_array"
-			(at 334.01 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 334.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 334.01 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 307.34 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EXB-18VR000X"
-			(at 334.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 334.01 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4x0R_0201"
-			(at 312.42 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 334.01 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 334.01 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d026baa-7ae5-4536-9650-dce46e7bff20")
-		)
-		(pin "2"
-			(uuid "27251fdd-35f6-48de-8d94-0bbcd9a06867")
-		)
-		(pin "3"
-			(uuid "e60f9fd2-376d-4c21-951b-0ebf523268e5")
-		)
-		(pin "4"
-			(uuid "5f247320-3055-4e35-ac9a-240d9257b3bf")
-		)
-		(pin "5"
-			(uuid "f0afd790-0799-4eed-9f3f-cb6a8503c4fa")
-		)
-		(pin "6"
-			(uuid "19db22bc-fd1e-47e8-bf55-821cdc5b0fb8")
-		)
-		(pin "7"
-			(uuid "168927ac-eee6-466b-9612-ad2b7e900164")
-		)
-		(pin "8"
-			(uuid "9d6cf1af-66a3-4c4e-9256-43b1867d1d76")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
-					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroTestPoints:TP_1mm_SMD")
 		(at 140.97 135.89 180)
 		(unit 1)
@@ -14224,7 +12223,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMemory:IS66WVS4M8BLL-104NLI")
-		(at 304.8 121.92 0)
+		(at 308.61 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14233,16 +12232,17 @@
 		(fields_autoplaced yes)
 		(uuid "60c98b9e-931c-495c-96e8-24612be3d73e")
 		(property "Reference" "U16"
-			(at 314.96 114.3 0)
+			(at 318.77 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "IS66WVS4M8BLL-104NLI"
-			(at 340.36 129.54 0)
+			(at 344.17 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14253,7 +12253,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SOIC-8_3.9x4.9x1.75mm_P1.27mm"
-			(at 340.36 132.08 0)
+			(at 344.17 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14264,7 +12264,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.issi.com/WW/pdf/66-67WVS4M8ALL-BLL.pdf"
-			(at 340.36 134.62 0)
+			(at 344.17 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14275,7 +12275,7 @@
 			)
 		)
 		(property "Description" "SPI, SRAM 32Mb, SerialRAM, 2.7V-3.6V, 104MHz, 8 pin SOIC 150 mil"
-			(at 340.36 137.16 0)
+			(at 344.17 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14286,7 +12286,7 @@
 			)
 		)
 		(property "Manufacturer" "ISSI"
-			(at 340.36 139.7 0)
+			(at 344.17 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14297,7 +12297,7 @@
 			)
 		)
 		(property "MPN" "IS66WVS4M8BLL-104NLI"
-			(at 314.96 116.84 0)
+			(at 318.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14306,7 +12306,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 340.36 142.24 0)
+			(at 344.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14317,7 +12317,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 340.36 144.78 0)
+			(at 344.17 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15778,158 +13778,6 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTestPoints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm")
-		(at 297.18 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "7b8269c9-7c11-4738-a4db-32566b416ae1")
-		(property "Reference" "J11"
-			(at 311.785 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
-			(at 335.28 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
-			(at 335.28 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
-			(at 335.28 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tag Connect 2x5 1.27mm terminal"
-			(at 297.18 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TC2050-IDC-NL"
-			(at 311.785 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Tag Connect"
-			(at 335.28 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 335.28 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 335.28 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a605338a-28e7-4905-b55b-89f6e3529969")
-			(alternate "3V3")
-		)
-		(pin "10"
-			(uuid "a4b8137b-1390-4463-9db4-0b5f554d4aa5")
-			(alternate "SPI_NC")
-		)
-		(pin "4"
-			(uuid "b4afe9cd-89a2-4cb6-a23f-8403e0bde7e8")
-			(alternate "SPI_SCK")
-		)
-		(pin "3"
-			(uuid "e30c2d34-e3e3-4c8c-a49a-ee3a06ca4264")
-			(alternate "GND")
-		)
-		(pin "7"
-			(uuid "a48210c3-e986-4993-86fd-0bd607ab592f")
-			(alternate "NC")
-		)
-		(pin "2"
-			(uuid "edba152e-6b10-478c-9360-58a5f7ad427e")
-			(alternate "SPI_CS")
-		)
-		(pin "5"
-			(uuid "80f4699d-1315-4575-a818-ad2ee14a752c")
-			(alternate "GND")
-		)
-		(pin "9"
-			(uuid "a85e176c-3068-4b1e-9df6-412d8516faf8")
-			(alternate "GND")
-		)
-		(pin "6"
-			(uuid "dc3d3091-48c7-40d2-8766-bee4b16fc6de")
-			(alternate "SPI_MISO")
-		)
-		(pin "8"
-			(uuid "65e2ecfe-e6c2-4ff9-96dd-22409a4452bf")
-			(alternate "SPI_MOSI")
-		)
-		(instances
-			(project ""
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -19064,73 +16912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:PWR_FLAG")
-		(at 328.93 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d414b53f-9d21-49fc-b395-ced63f36d3c6")
-		(property "Reference" "#FLG08"
-			(at 330.835 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 332.74 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 328.93 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 328.93 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00b28554-5c18-40fa-8a6d-a5d39ecdd76d")
-		)
-		(instances
-			(project ""
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 195.58 176.53 0)
 		(unit 1)
@@ -19600,123 +17381,6 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G")
-		(at 317.5 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e56fbbdf-0b5a-42e4-bee3-29c1ba20a17b")
-		(property "Reference" "D16"
-			(at 314.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RB521S30T1G"
-			(at 294.64 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOD-523"
-			(at 294.64 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
-			(at 294.64 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 317.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RB521S30T1G"
-			(at 314.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "ON Semiconductor"
-			(at 294.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 294.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 294.64 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a09f8c3f-8d34-44b8-b003-517d2925cb29")
-		)
-		(pin "2"
-			(uuid "a7b46ce6-8269-4709-848c-14a20cb14c8c")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
-					(reference "D16")
 					(unit 1)
 				)
 			)
