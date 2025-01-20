@@ -4445,6 +4445,148 @@
 				)
 			)
 		)
+		(symbol "antmicroTestPoints:TP_0.75mm_SMD"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 10.16 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TP_0.75mm_SMD"
+				(at 10.16 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+				(at 10.16 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 17.78 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMT test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 10.795 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 10.795 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 10.16 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 10.16 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TESTPOINT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP_0.75mm_SMD_1_1"
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "antmicroTestPoints:TP_1mm_SMD"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -5502,16 +5644,8 @@
 		(uuid "1b34ff80-1f43-4433-aa4e-52a0c07359b6")
 	)
 	(no_connect
-		(at 218.44 160.02)
-		(uuid "28d33544-8f58-491a-a1e6-e7759a2c4221")
-	)
-	(no_connect
 		(at 218.44 114.3)
 		(uuid "3602a18c-35e4-4e45-b5d6-ba7a82e46d3e")
-	)
-	(no_connect
-		(at 218.44 172.72)
-		(uuid "548f7a31-896f-4cb5-b3f2-a34aefa5f8d5")
 	)
 	(no_connect
 		(at 218.44 149.86)
@@ -5540,10 +5674,6 @@
 	(no_connect
 		(at 218.44 129.54)
 		(uuid "b1bd51f8-caf2-4084-ad9f-a0ebaf710017")
-	)
-	(no_connect
-		(at 218.44 175.26)
-		(uuid "d28af2ec-bc47-46cf-a676-222058336e1d")
 	)
 	(bus_entry
 		(at 287.02 165.1)
@@ -6421,6 +6551,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 172.72) (xy 222.25 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7411a13c-141a-48ba-aa38-42b615a768f3")
+	)
+	(wire
+		(pts
 			(xy 116.84 146.05) (xy 116.84 147.32)
 		)
 		(stroke
@@ -6508,6 +6648,16 @@
 			(type default)
 		)
 		(uuid "80295705-d209-4776-89f6-345da7d182c5")
+	)
+	(wire
+		(pts
+			(xy 218.44 160.02) (xy 222.25 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814eed66-b56a-4b5e-8e43-d4d381b7798f")
 	)
 	(wire
 		(pts
@@ -6908,6 +7058,16 @@
 			(type default)
 		)
 		(uuid "d1c6a2c6-bad4-44a7-bc7f-4871a850c2ec")
+	)
+	(wire
+		(pts
+			(xy 218.44 175.26) (xy 222.25 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d306457e-2f5a-4886-883c-a4669fe02887")
 	)
 	(wire
 		(pts
@@ -7382,6 +7542,7 @@
 	)
 	(label "SPI0.MOSI"
 		(at 223.52 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7425,6 +7586,7 @@
 	)
 	(label "SPI0.~{CS0}"
 		(at 223.52 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7457,6 +7619,7 @@
 	)
 	(label "SPI0.MISO"
 		(at 223.52 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7511,6 +7674,7 @@
 	)
 	(label "I2C0.SDA"
 		(at 271.78 162.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7576,6 +7740,7 @@
 	)
 	(label "SPI0.SCK"
 		(at 223.52 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7597,6 +7762,7 @@
 	)
 	(label "I2C0.SCL"
 		(at 271.78 165.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7941,7 +8107,7 @@
 		(dnp no)
 		(uuid "11ca0c17-39a0-40b7-b1a2-93e773da41cc")
 		(property "Reference" "R85"
-			(at 221.742 163.83 0)
+			(at 221.742 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8036,7 +8202,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 229.616 163.83 0)
+			(at 229.616 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,6 +8500,124 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 222.25 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18f07998-1518-4957-ac6c-41e3e8fa039b")
+		(property "Reference" "TP22"
+			(at 227.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 232.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 232.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 222.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 233.045 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 233.045 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 232.41 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 232.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9479585-afa4-4da6-a0e0-fce4a3b39882")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -9582,7 +9866,7 @@
 		(dnp no)
 		(uuid "2eef68aa-7921-4170-815e-f3a9f6d8f267")
 		(property "Reference" "R84"
-			(at 221.742 161.29 0)
+			(at 221.742 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9677,7 +9961,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 229.616 161.29 0)
+			(at 229.616 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11103,6 +11387,123 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 222.25 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e7b46b1-260c-424c-8782-013da6d3b78d")
+		(property "Reference" "TP24"
+			(at 227.33 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 232.41 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 232.41 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 222.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 233.045 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 233.045 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 232.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 232.41 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be8b6be9-2a85-4f9a-b5be-6448619e255a")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 160.02 95.25 0)
 		(unit 1)
@@ -11206,7 +11607,7 @@
 		(dnp no)
 		(uuid "652ce49e-64fd-46d8-aafb-13dce213cca6")
 		(property "Reference" "R80"
-			(at 221.742 168.91 0)
+			(at 221.742 169.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11301,7 +11702,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 229.616 168.91 0)
+			(at 229.616 169.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12967,7 +13368,7 @@
 		(dnp no)
 		(uuid "8b34d08e-af46-46e0-882e-1ed8b4860326")
 		(property "Reference" "R79"
-			(at 221.742 166.37 0)
+			(at 221.742 166.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13062,7 +13463,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 229.616 166.37 0)
+			(at 229.616 166.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13406,7 +13807,7 @@
 		(dnp no)
 		(uuid "9ad361ad-a98e-4b0b-ad1e-0039097e759e")
 		(property "Reference" "R82"
-			(at 221.742 179.07 0)
+			(at 221.742 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13501,7 +13902,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 229.616 179.07 0)
+			(at 229.616 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,7 +15354,7 @@
 		(dnp no)
 		(uuid "bef90a3f-ef18-4199-b90e-4826c4d0fc78")
 		(property "Reference" "R83"
-			(at 221.742 181.61 0)
+			(at 221.742 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15048,7 +15449,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 229.616 181.61 0)
+			(at 229.616 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15087,6 +15488,124 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 222.25 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfdeda55-2073-475b-a644-06b5186e6960")
+		(property "Reference" "TP23"
+			(at 227.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 232.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 232.41 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 222.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 233.045 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 233.045 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 232.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 232.41 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0319ef2e-bb8e-428e-a6e9-61c6bb6a3d74")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -15638,7 +16157,7 @@
 		(dnp no)
 		(uuid "d9413dbd-8b56-4c3b-b023-e7185e30316a")
 		(property "Reference" "R81"
-			(at 221.742 176.53 0)
+			(at 221.742 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15733,7 +16252,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 229.616 176.53 0)
+			(at 229.616 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
