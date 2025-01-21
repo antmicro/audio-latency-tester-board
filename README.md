@@ -1,11 +1,19 @@
-# Audio latency processing board
+# Audio Latency Processing Board
+
+![image](assets/previews/orthoT.png)
 
 ## Overview
+This project contains design files for a audio latency processing board.
 
-## Project structure
+The design files were prepared in KiCad 8.x.
 
 ## Key features
-* TAS2505IRGER
-* PCM6140-Q1
+* TAS2505IRGER Class-D Amplifier
+* 2x RP2040 MCU
 
+## Project structure
+The main directory contains KiCad PCB project files and a README. 
+The remaining files are stored in the following directories:
 
+* `doc` - contains schematic file in PDF format
+* `assets` - contains visual assets for showcasing this design
