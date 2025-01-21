@@ -5363,117 +5363,6 @@
 				)
 			)
 		)
-		(symbol "antmicropower:+1V2"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V2"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V2_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V2_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+1V2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "antmicropower:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -5802,12 +5691,6 @@
 		(uuid "642066d7-cb28-49aa-bc39-a0ff5edbf76e")
 	)
 	(junction
-		(at 132.08 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "686de327-279d-4acb-b61d-d1ed498eb90c")
-	)
-	(junction
 		(at 142.24 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5866,12 +5749,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e21b5e4-0f17-4b42-a08f-08d2b608f9c5")
-	)
-	(junction
-		(at 232.41 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6b9369e-f482-44e5-8827-cebc36260bed")
 	)
 	(junction
 		(at 237.49 161.29)
@@ -6469,7 +6346,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 105.41) (xy 232.41 105.41)
+			(xy 228.6 105.41) (xy 238.76 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6566,16 +6443,6 @@
 			(type default)
 		)
 		(uuid "425528dd-a056-4bfb-8e6f-1bcdff04009c")
-	)
-	(wire
-		(pts
-			(xy 232.41 105.41) (xy 238.76 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "439f39ef-cb1d-4599-a5d5-2bc57a065235")
 	)
 	(wire
 		(pts
@@ -6819,16 +6686,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 118.11) (xy 132.08 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69d1b025-4c7a-49e1-acd7-69357821dc4a")
-	)
-	(wire
-		(pts
 			(xy 237.49 154.94) (xy 237.49 153.67)
 		)
 		(stroke
@@ -6976,16 +6833,6 @@
 			(type default)
 		)
 		(uuid "819541ad-87f9-4300-9aab-60d92b8566dc")
-	)
-	(wire
-		(pts
-			(xy 232.41 104.14) (xy 232.41 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ea9ff0-68f3-4295-afbe-1f9bf8a49def")
 	)
 	(wire
 		(pts
@@ -7844,6 +7691,17 @@
 		)
 		(uuid "f388e16e-aaf7-4e02-bdaf-466755c74e73")
 	)
+	(label "+1V1_MCU2"
+		(at 132.08 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00373e78-e4d6-4204-b71a-4c5647c8bcc9")
+	)
 	(label "SPI1.~{CS0}"
 		(at 208.28 133.35 180)
 		(fields_autoplaced yes)
@@ -8008,6 +7866,17 @@
 			(justify left bottom)
 		)
 		(uuid "6572058f-8933-48ee-9002-c698dce8613b")
+	)
+	(label "+1V1_MCU2"
+		(at 208.28 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d196213-93db-46a2-932f-25076310b323")
 	)
 	(label "QSPI_CSn"
 		(at 140.97 166.37 0)
@@ -10530,72 +10399,6 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+1V2")
-		(at 132.08 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30e2f525-7bda-4fe4-9c74-86188db5d6cd")
-		(property "Reference" "#PWR0102"
-			(at 132.08 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V1"
-			(at 132.08 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da64ea3e-eb59-4e47-ad53-d9df24910b64")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -13411,71 +13214,6 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+1V2")
-		(at 232.41 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76bfc2de-9049-4a2a-9411-bdb185b1476d")
-		(property "Reference" "#PWR0120"
-			(at 232.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V1"
-			(at 232.41 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49b0b97b-015a-459e-98f0-182628a597ed")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
-					(reference "#PWR0120")
 					(unit 1)
 				)
 			)

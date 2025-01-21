@@ -4910,117 +4910,6 @@
 				)
 			)
 		)
-		(symbol "antmicropower:+1V2"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V2"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V2_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V2_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+1V2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "antmicropower:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -5419,18 +5308,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9953276-d55a-4f12-9f63-87a9856af24a")
-	)
-	(junction
-		(at 295.91 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "caf16fa4-26ad-47f6-a6a9-38b9deaa34e6")
-	)
-	(junction
-		(at 177.8 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5281ec7-8882-444b-8582-fc71a02bc1f2")
 	)
 	(junction
 		(at 156.21 181.61)
@@ -6350,26 +6227,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 104.14) (xy 295.91 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "652cee59-d918-4878-9a2f-d67a070af340")
-	)
-	(wire
-		(pts
-			(xy 295.91 105.41) (xy 302.26 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6551d146-e41b-4e90-9923-1e0c6bcf960a")
-	)
-	(wire
-		(pts
 			(xy 198.12 138.43) (xy 186.69 138.43)
 		)
 		(stroke
@@ -6900,16 +6757,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 118.11) (xy 177.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bade78f6-fa78-4f19-81ae-59cfb193f808")
-	)
-	(wire
-		(pts
 			(xy 177.8 87.63) (xy 177.8 88.9)
 		)
 		(stroke
@@ -7080,7 +6927,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 105.41) (xy 295.91 105.41)
+			(xy 294.64 105.41) (xy 302.26 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7376,6 +7223,17 @@
 		)
 		(uuid "17602a66-ed34-4872-90c1-d512b088eee2")
 	)
+	(label "+1V1_MCU1"
+		(at 177.8 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "212f7911-9aa2-491f-871d-a65eacebdeaf")
+	)
 	(label "SPI0.~{CS0}"
 		(at 264.16 127 0)
 		(fields_autoplaced yes)
@@ -7474,6 +7332,17 @@
 			(justify left bottom)
 		)
 		(uuid "5a2db1fb-2b5e-48c0-9f4f-4b65c07b1173")
+	)
+	(label "+1V1_MCU1"
+		(at 257.81 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7705183e-66a7-45a1-b5c5-f71277847470")
 	)
 	(label "SWCLK"
 		(at 186.69 140.97 0)
@@ -14781,71 +14650,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:+1V2")
-		(at 295.91 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce979953-4089-4727-85b8-13207be00a18")
-		(property "Reference" "#PWR095"
-			(at 295.91 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V1"
-			(at 295.91 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 295.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 295.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "025816dc-9655-42e1-9fa7-ee14cc6bc16f")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 163.83 187.96 0)
 		(unit 1)
@@ -16355,72 +16159,6 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+1V2")
-		(at 177.8 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3c8f8be-364b-4bdf-855f-6e5219e15352")
-		(property "Reference" "#PWR064"
-			(at 177.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V1"
-			(at 177.8 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74e35920-5a2c-4897-8be1-a2e7ad7fa707")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
