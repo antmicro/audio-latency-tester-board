@@ -7,7 +7,7 @@
 	(title_block
 		(title "Audio Latency Processing Board")
 		(date "2025-01-20")
-		(rev "1.1.0")
+		(rev "1.1.1")
 	)
 	(lib_symbols
 		(symbol "antmicroCapacitors0402:C_100n_0402"
