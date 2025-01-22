@@ -5864,7 +5864,7 @@
 		(uuid "0c72c385-f93d-4555-a0dc-9f0c81fc2e3a")
 	)
 	(bus_entry
-		(at 111.76 143.51)
+		(at 111.76 146.05)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5963,7 +5963,7 @@
 		(uuid "9b9635e7-c0d4-4285-a941-0f026226629d")
 	)
 	(bus_entry
-		(at 111.76 146.05)
+		(at 111.76 143.51)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -6052,7 +6052,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 146.05) (xy 129.54 146.05)
+			(xy 114.3 148.59) (xy 135.89 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6139,16 +6139,6 @@
 			(type default)
 		)
 		(uuid "1c8d0e54-07c9-4a22-a81d-705a0766a031")
-	)
-	(bus
-		(pts
-			(xy 111.76 142.24) (xy 111.76 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da03143-ad4f-4630-82f5-fd08026cfa2c")
 	)
 	(bus
 		(pts
@@ -6419,6 +6409,16 @@
 			(type default)
 		)
 		(uuid "3cdfe005-6764-4e3b-8564-1ff5e2e4cd6e")
+	)
+	(bus
+		(pts
+			(xy 111.76 143.51) (xy 111.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd6b316-ef71-4aaf-b6aa-fc95e3fbc936")
 	)
 	(wire
 		(pts
@@ -6912,7 +6912,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 146.05) (xy 152.4 146.05)
+			(xy 140.97 148.59) (xy 152.4 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7022,7 +7022,7 @@
 	)
 	(bus
 		(pts
-			(xy 111.76 143.51) (xy 111.76 146.05)
+			(xy 111.76 142.24) (xy 111.76 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7142,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 148.59) (xy 152.4 148.59)
+			(xy 140.97 146.05) (xy 152.4 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7532,7 +7532,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 148.59) (xy 129.54 148.59)
+			(xy 114.3 146.05) (xy 135.89 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7740,7 +7740,7 @@
 		(uuid "00763466-1b92-4c54-8162-91c65f3d0f4c")
 	)
 	(label "USB.D_N"
-		(at 124.46 146.05 180)
+		(at 124.46 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7751,7 +7751,7 @@
 		(uuid "0d4234a0-51db-44e3-9974-9f182dbe6c64")
 	)
 	(label "USB.D_P"
-		(at 124.46 148.59 180)
+		(at 124.46 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7760,17 +7760,6 @@
 			(justify right bottom)
 		)
 		(uuid "1065114d-6610-4e43-b0d7-2dccc8de1837")
-	)
-	(label "USB_DM"
-		(at 140.97 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33d1af04-f2f1-4848-a6ff-3b0e31e87a67")
 	)
 	(label "I2S.SD"
 		(at 204.47 151.13 0)
@@ -8112,17 +8101,6 @@
 			(justify left bottom)
 		)
 		(uuid "e41afb9b-17fa-4dea-8959-1dedeebb0cd9")
-	)
-	(label "USB_DP"
-		(at 140.97 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5b59ef4-6926-4650-a933-0744efd56e4c")
 	)
 	(label "SPI1.~{CS0}"
 		(at 290.83 129.54 0)
@@ -9050,7 +9028,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_27R_0402")
-		(at 129.54 146.05 0)
+		(at 135.89 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9058,7 +9036,7 @@
 		(dnp no)
 		(uuid "1b81aff4-bc0f-4702-a9c6-2a69563a8d92")
 		(property "Reference" "R49"
-			(at 127.762 145.034 0)
+			(at 134.112 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,7 +9045,7 @@
 			)
 		)
 		(property "Value" "R_27R_0402"
-			(at 149.86 158.75 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9056,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 149.86 161.29 0)
+			(at 156.21 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,7 +9067,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 149.86 163.83 0)
+			(at 156.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9100,7 +9078,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 27 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 129.54 146.05 0)
+			(at 135.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9109,7 +9087,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-27R0GLF"
-			(at 149.86 166.37 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,7 +9098,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 149.86 168.91 0)
+			(at 156.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9109,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 149.86 171.45 0)
+			(at 156.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +9120,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 149.86 173.99 0)
+			(at 156.21 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,7 +9131,7 @@
 			)
 		)
 		(property "Val" "27R"
-			(at 136.398 145.034 0)
+			(at 142.748 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,7 +9140,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 149.86 156.21 0)
+			(at 156.21 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15362,7 +15340,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_27R_0402")
-		(at 129.54 148.59 0)
+		(at 135.89 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15370,7 +15348,7 @@
 		(dnp no)
 		(uuid "ae2eb60f-f191-46e7-90b4-fa1740598d4f")
 		(property "Reference" "R50"
-			(at 127.762 147.574 0)
+			(at 134.112 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15379,7 +15357,7 @@
 			)
 		)
 		(property "Value" "R_27R_0402"
-			(at 149.86 161.29 0)
+			(at 156.21 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15390,7 +15368,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 149.86 163.83 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15401,7 +15379,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 149.86 166.37 0)
+			(at 156.21 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15412,7 +15390,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 27 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 129.54 148.59 0)
+			(at 135.89 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15421,7 +15399,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-27R0GLF"
-			(at 149.86 168.91 0)
+			(at 156.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15432,7 +15410,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 149.86 171.45 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15443,7 +15421,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 149.86 173.99 0)
+			(at 156.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15454,7 +15432,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 149.86 176.53 0)
+			(at 156.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15465,7 +15443,7 @@
 			)
 		)
 		(property "Val" "27R"
-			(at 136.398 147.574 0)
+			(at 142.748 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15474,7 +15452,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 149.86 158.75 0)
+			(at 156.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
