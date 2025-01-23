@@ -7,7 +7,7 @@
 	(title_block
 		(title "Audio Latency Processing Board")
 		(date "2025-01-20")
-		(rev "1.1.1")
+		(rev "1.2.0")
 	)
 	(lib_symbols
 		(symbol "TAS2505IRGER_1"
