@@ -216,6 +216,293 @@
 				)
 			)
 		)
+		(symbol "antmicroFCCConnectors:Conn_FFC_Molex_5019510550"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 22.86 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Conn_FFC_Molex_5019510550"
+				(at 22.86 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Conn_FFC_Molex_5019510550"
+				(at 22.86 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/501/501951/5019510550_sd.pdf?inline"
+				(at 22.86 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector FFC/FPC SKT 5 Position 0.5mm Solder Straight Surface Mount T/R"
+				(at 22.86 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Molex"
+				(at 22.86 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "501951-0550"
+				(at 22.86 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 22.86 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 22.86 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CONNECTOR, FFC, SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_FFC_Molex_5019510550_1_1"
+				(rectangle
+					(start 2.54 -10.16)
+					(end 3.81 -10.414)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -7.62)
+					(end 3.81 -7.874)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -5.08)
+					(end 3.81 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.54)
+					(end 3.81 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 0)
+					(end 3.81 -0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 2.54)
+					(end 7.62 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "antmicroResistors0402:R_0R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -2057,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 128.27 114.3)
+			(xy 128.27 107.95) (xy 128.27 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2887,7 +3174,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 181.61) (xy 129.54 187.96)
+			(xy 129.54 181.61) (xy 129.54 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3021,7 +3308,7 @@
 	)
 	(text "Datasheet"
 		(exclude_from_sim no)
-		(at 123.19 128.27 0)
+		(at 120.65 124.714 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3030,19 +3317,19 @@
 		)
 		(uuid "23c2b045-9d40-4594-a5b7-8c9cd4cdc2f6")
 	)
-	(text "Microphone (SPH0645LM4H-B) \nTyp. current: 600µA"
+	(text "1:1 Pinout with the Microphone Board\nUse Opposite Side FFC"
 		(exclude_from_sim no)
-		(at 123.19 199.39 0)
+		(at 120.904 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "2b41c126-962e-48c6-9746-10e7a08fc784")
+		(uuid "29169d86-4e7e-4aea-a432-04cdd3670578")
 	)
 	(text "Microphone (SPH0645LM4H-B) \nTyp. current: 600µA"
 		(exclude_from_sim no)
-		(at 123.19 124.46 0)
+		(at 120.65 120.904 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3076,14 +3363,34 @@
 	)
 	(text "Datasheet"
 		(exclude_from_sim no)
-		(at 123.19 203.2 0)
+		(at 121.92 198.374 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(href "https://eu.mouser.com/datasheet/2/218/ph0645lm4h_b_datasheet_rev_c-1525723.pdf")
 		)
-		(uuid "bc3f924f-b20d-42d5-b517-ebfab7e25e24")
+		(uuid "c534a778-2783-4f99-bf05-6d2e76fb1c54")
+	)
+	(text "Microphone (SPH0645LM4H-B) \nTyp. current: 600µA"
+		(exclude_from_sim no)
+		(at 121.92 194.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5f896b2-e17d-4745-8d2c-ac1c8d46e2e4")
+	)
+	(text "1:1 Pinout with the Microphone Board\nUse Opposite Side FFC"
+		(exclude_from_sim no)
+		(at 122.174 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e51a3cec-1c93-4d51-8ea7-dc44098a45c3")
 	)
 	(label "L-WS"
 		(at 137.16 102.87 180)
@@ -5649,6 +5956,138 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroFCCConnectors:Conn_FFC_Molex_5019510550")
+		(at 127 168.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d703e28-679a-4b45-8730-43f83263fbd4")
+		(property "Reference" "J2"
+			(at 111.252 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_FFC_Molex_5019510550"
+			(at 104.14 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Conn_FFC_Molex_5019510550"
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/501/501951/5019510550_sd.pdf?inline"
+			(at 104.14 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector FFC/FPC SKT 5 Position 0.5mm Solder Straight Surface Mount T/R"
+			(at 104.14 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 104.14 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "501951-0550"
+			(at 111.252 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 104.14 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 104.14 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "fa9bedf9-cec7-4646-a4e0-f68b93e4a837")
+		)
+		(pin "5"
+			(uuid "2cfe5038-d8d1-4ca7-95c1-3ba2611bc7a3")
+		)
+		(pin "3"
+			(uuid "26350ee3-52d5-4439-afbd-a3c64a4875b8")
+		)
+		(pin "2"
+			(uuid "232e3741-14b0-4825-bae3-c315ae1f033e")
+		)
+		(pin "1"
+			(uuid "4af8f43e-8824-45eb-a88d-f075dd379f2d")
+		)
+		(pin "4"
+			(uuid "4cd76e79-c30c-4b92-bd79-10ac15a7bf45")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/a5973bba-065b-4f1e-8188-1e9f006e3cba"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroWire2BoardConnectors:JST_SUR_1x5_BM05B-SURS-TB-LF-SN")
 		(at 280.67 163.83 0)
 		(mirror y)
@@ -5929,6 +6368,138 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/a5973bba-065b-4f1e-8188-1e9f006e3cba"
 					(reference "R94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFCCConnectors:Conn_FFC_Molex_5019510550")
+		(at 125.73 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97acd57c-a6e0-4e9a-85af-ff2caf4d8906")
+		(property "Reference" "J1"
+			(at 109.982 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_FFC_Molex_5019510550"
+			(at 102.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Conn_FFC_Molex_5019510550"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/501/501951/5019510550_sd.pdf?inline"
+			(at 102.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector FFC/FPC SKT 5 Position 0.5mm Solder Straight Surface Mount T/R"
+			(at 102.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 102.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "501951-0550"
+			(at 109.982 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 102.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "561c1872-3c6d-4657-b281-7837c3ddf124")
+		)
+		(pin "5"
+			(uuid "33bdf957-2773-4fb1-a3dd-89f6aee15c56")
+		)
+		(pin "3"
+			(uuid "106f50b0-ca40-4929-93da-3e719dde137b")
+		)
+		(pin "2"
+			(uuid "6dabaf6b-2451-4cbc-9d53-56c36ef0e7a8")
+		)
+		(pin "1"
+			(uuid "8bea68d4-fff9-49a3-bd24-da24fb329452")
+		)
+		(pin "4"
+			(uuid "13431dc4-933f-404c-903f-cfa61c839b2a")
+		)
+		(instances
+			(project ""
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/a5973bba-065b-4f1e-8188-1e9f006e3cba"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6724,141 +7295,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroWire2BoardConnectors:JST_SUR_1x5_BM05B-SURS-TB-LF-SN")
-		(at 127 168.91 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb2eca57-50a4-4d6d-b81c-bdde73b1bb67")
-		(property "Reference" "J2"
-			(at 120.65 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_SUR_1x5_BM05B-SURS-TB-LF-SN"
-			(at 106.68 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Conn_JST_SUR_1x5_BM05B-SURS-TF-LF-SN"
-			(at 106.68 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/09/eSUR-new.pdf"
-			(at 106.68 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header, Vertical, Wire-to-Board, 0.5 mm, 1 Rows, 5 Contacts, Surface Mount Vertical, SUR"
-			(at 106.68 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" " BM05B-SURS-TF(LF)(SN)"
-			(at 120.65 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "JST Automotive Connectors"
-			(at 106.68 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 106.68 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 106.68 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "074524e2-1a8a-491b-aeaa-1023b56c9c75")
-		)
-		(pin "3"
-			(uuid "da6e1c9b-5a33-4fed-977e-f5844f47c102")
-		)
-		(pin "1"
-			(uuid "447cc603-3fd6-429e-bb1f-01624220284f")
-		)
-		(pin "4"
-			(uuid "9111cb71-59ed-482d-a938-2c690ebf68d5")
-		)
-		(pin "5"
-			(uuid "d94c58e0-18d0-4ec8-a948-e42bbd1fb661")
-		)
-		(pin "MP"
-			(uuid "29b8fd9b-25e0-4fc0-9d81-ebc58c439323")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/a5973bba-065b-4f1e-8188-1e9f006e3cba"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:+1V8")
 		(at 331.47 152.4 0)
 		(unit 1)
@@ -6955,7 +7391,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 128.27 114.3 0)
+		(at 128.27 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6965,7 +7401,7 @@
 		(fields_autoplaced yes)
 		(uuid "c58d31a6-514f-4b6b-b01e-d5ec8ee41685")
 		(property "Reference" "#PWR024"
-			(at 119.38 116.84 0)
+			(at 119.38 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +7412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 119.38 0)
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6985,7 +7421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 121.92 0)
+			(at 119.38 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,26 +7432,6 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -7026,8 +7442,28 @@
 				(hide yes)
 			)
 		)
+		(property "Description" ""
+			(at 128.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 119.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "License" "Apache-2.0"
-			(at 119.38 124.46 0)
+			(at 119.38 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,141 +8334,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroWire2BoardConnectors:JST_SUR_1x5_BM05B-SURS-TB-LF-SN")
-		(at 125.73 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e83ac07e-38f4-43c1-a7bd-e95f8d70a318")
-		(property "Reference" "J1"
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_SUR_1x5_BM05B-SURS-TB-LF-SN"
-			(at 105.41 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Conn_JST_SUR_1x5_BM05B-SURS-TF-LF-SN"
-			(at 105.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/09/eSUR-new.pdf"
-			(at 105.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header, Vertical, Wire-to-Board, 0.5 mm, 1 Rows, 5 Contacts, Surface Mount Vertical, SUR"
-			(at 105.41 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" " BM05B-SURS-TF(LF)(SN)"
-			(at 119.38 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "JST Automotive Connectors"
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 105.41 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 105.41 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "16ac5483-eb92-48e1-8a2c-fccd3a03eed5")
-		)
-		(pin "3"
-			(uuid "87f7fbb6-12c9-4b19-b18c-ee404526ed28")
-		)
-		(pin "1"
-			(uuid "e65eb695-b5d0-47cf-b2e1-8ec6b7edcfb7")
-		)
-		(pin "4"
-			(uuid "3ede179a-c1cc-49c8-8201-f5d2f06054de")
-		)
-		(pin "5"
-			(uuid "a89ba43e-b349-40df-956c-e2b96bdb2a6c")
-		)
-		(pin "MP"
-			(uuid "6d8a5402-3dd2-4d06-89bb-2a7bf874f1e3")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/a5973bba-065b-4f1e-8188-1e9f006e3cba"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 190.5 72.39 0)
 		(unit 1)
@@ -8278,7 +8579,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 129.54 187.96 0)
+		(at 129.54 182.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8288,7 +8589,7 @@
 		(fields_autoplaced yes)
 		(uuid "fde02a62-5541-412f-bcd3-34747466bbfe")
 		(property "Reference" "#PWR026"
-			(at 120.65 190.5 0)
+			(at 120.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8600,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 193.04 0)
+			(at 129.54 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 195.58 0)
+			(at 120.65 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,26 +8620,6 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
 			(at 120.65 195.58 0)
 			(effects
 				(font
@@ -8349,8 +8630,28 @@
 				(hide yes)
 			)
 		)
+		(property "Description" ""
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 120.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "License" "Apache-2.0"
-			(at 120.65 198.12 0)
+			(at 120.65 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
