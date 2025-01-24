@@ -218,17 +218,6 @@
 	)
 	(bus
 		(pts
-			(xy 232.41 128.27) (xy 248.92 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 241 95 50 1)
-		)
-		(uuid "a20088c2-3366-4560-b20f-c3a52dacf93d")
-	)
-	(bus
-		(pts
 			(xy 182.88 133.35) (xy 200.66 133.35)
 		)
 		(stroke
@@ -236,16 +225,6 @@
 			(type default)
 		)
 		(uuid "bbac348a-6f13-4975-97eb-fc058b0b103c")
-	)
-	(bus
-		(pts
-			(xy 232.41 137.16) (xy 248.92 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb904eb-b7f4-4b0b-941a-ecb2adf65870")
 	)
 	(bus
 		(pts
@@ -296,6 +275,17 @@
 			(type default)
 		)
 		(uuid "f2dc4df9-a630-4805-a255-243e3eb3d529")
+	)
+	(bus
+		(pts
+			(xy 232.41 132.08) (xy 248.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 241 95 50 1)
+		)
+		(uuid "f4adc592-416c-4875-9ac2-156c35422bf2")
 	)
 	(bus
 		(pts
@@ -909,18 +899,8 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C{I2C}" input
-			(at 248.92 137.16 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "be0db8d2-d478-4fd6-b4b9-51183b6e72d3")
-		)
 		(pin "I2S{I2S}" input
-			(at 248.92 128.27 180)
+			(at 248.92 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,18 +1014,8 @@
 			)
 			(uuid "8a6f23a7-a419-4957-9cd9-5e9253766680")
 		)
-		(pin "I2C1{I2C}" input
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0210fd7f-34a1-4460-8aad-582bbfd5c9eb")
-		)
 		(pin "I2S{I2S}" input
-			(at 232.41 128.27 0)
+			(at 232.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
