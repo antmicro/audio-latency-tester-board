@@ -3029,7 +3029,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 125.73) (xy 226.06 125.73)
+			(xy 215.9 128.27) (xy 226.06 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3499,7 +3499,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 128.27) (xy 226.06 128.27)
+			(xy 215.9 125.73) (xy 226.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3905,7 +3905,7 @@
 		)
 		(uuid "febe7949-113f-45fd-8abd-ebdf10a39c0c")
 	)
-	(label "SPK_M"
+	(label "SPK_N"
 		(at 182.88 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3928,7 +3928,7 @@
 		(uuid "22e09430-0134-4155-a4b0-622c7fc0f576")
 	)
 	(label "SPK_P"
-		(at 215.9 128.27 0)
+		(at 215.9 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3971,8 +3971,8 @@
 		)
 		(uuid "6965c5a5-3008-42e2-808b-a71cf5430857")
 	)
-	(label "SPK_M"
-		(at 215.9 125.73 0)
+	(label "SPK_N"
+		(at 215.9 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
