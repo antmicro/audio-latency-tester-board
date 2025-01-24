@@ -2757,7 +2757,7 @@
 				)
 			)
 		)
-		(symbol "antmicroPushbuttonSwitches:SW_B3U-3000PM_SMD"
+		(symbol "antmicroPushbuttonSwitches:SW_B3U-1000P_SMD"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2772,7 +2772,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_B3U-3000PM_SMD"
+			(property "Value" "SW_B3U-1000P_SMD"
 				(at 25.4 -5.08 0)
 				(effects
 					(font
@@ -2783,7 +2783,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:SW_B3U-3000PM_SMD"
+			(property "Footprint" "antmicro-footprints:SW_B3U-1000P_SMD"
 				(at 25.4 -7.62 0)
 				(effects
 					(font
@@ -2794,7 +2794,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.farnell.com/datasheets/2610940.pdf"
+			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
 				(at 25.4 -10.16 0)
 				(effects
 					(font
@@ -2805,7 +2805,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+			(property "Description" "Tactile Switch, B3U, Top Actuated, Surface Mount, Round Button, 153 gf, 50mA at 12VDC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2814,7 +2814,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "B3U-3000PM"
+			(property "MPN" "B3U-1000P"
 				(at 25.4 -12.7 0)
 				(effects
 					(font
@@ -2857,7 +2857,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "HORIZONTAL, SMT, SWITCH, MECHANICAL, TACTILE"
+			(property "ki_keywords" "VERTICAL, SMT, SWITCH, MECHANICAL, TACTILE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2866,7 +2866,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_B3U-3000PM_SMD_1_1"
+			(symbol "SW_B3U-1000P_SMD_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.302 0)
@@ -9283,6 +9283,124 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroPushbuttonSwitches:SW_B3U-1000P_SMD")
+		(at 69.85 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29a57513-55a3-4a65-99f0-7155b9e7cb2c")
+		(property "Reference" "SW4"
+			(at 74.93 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_B3U-1000P_SMD"
+			(at 95.25 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SW_B3U-1000P_SMD"
+			(at 95.25 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
+			(at 95.25 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch, B3U, Top Actuated, Surface Mount, Round Button, 153 gf, 50mA at 12VDC"
+			(at 69.85 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3U-1000P"
+			(at 74.93 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Omron"
+			(at 95.25 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 95.25 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 95.25 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1f5fb80-3efe-4f70-8d9b-67ab45a1cc6e")
+		)
+		(pin "1"
+			(uuid "549fa124-d9be-43e5-8f5d-215dc51e12d2")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
 		(at 138.43 106.68 90)
 		(unit 1)
@@ -10367,6 +10485,124 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroPushbuttonSwitches:SW_B3U-1000P_SMD")
+		(at 67.31 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3728a6ae-4652-4d8c-a7a3-1b33b9b66177")
+		(property "Reference" "SW3"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_B3U-1000P_SMD"
+			(at 92.71 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SW_B3U-1000P_SMD"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
+			(at 92.71 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch, B3U, Top Actuated, Surface Mount, Round Button, 153 gf, 50mA at 12VDC"
+			(at 67.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3U-1000P"
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Omron"
+			(at 92.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 92.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 92.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0aead2b-d6d6-40a6-81d1-2c05901f5745")
+		)
+		(pin "1"
+			(uuid "955ab761-723a-4323-9fe2-d312ad1aa7ee")
+		)
+		(instances
+			(project ""
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -12672,124 +12908,6 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroPushbuttonSwitches:SW_B3U-3000PM_SMD")
-		(at 67.31 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71ffac92-ea46-4f36-b958-425fcbae6cfd")
-		(property "Reference" "SW3"
-			(at 72.39 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_B3U-3000PM_SMD"
-			(at 92.71 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SW_B3U-3000PM_SMD"
-			(at 92.71 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/2610940.pdf"
-			(at 92.71 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-			(at 67.31 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "B3U-3000PM"
-			(at 72.39 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
-			(at 92.71 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 92.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 92.71 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2166ec9d-c274-44c5-9cc8-00da86362248")
-		)
-		(pin "1"
-			(uuid "cf164adb-f094-4f5f-abd1-decf4f842ff8")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -17678,124 +17796,6 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroPushbuttonSwitches:SW_B3U-3000PM_SMD")
-		(at 69.85 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee0f50db-823e-460f-995d-86cb0705ff83")
-		(property "Reference" "SW4"
-			(at 74.93 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_B3U-3000PM_SMD"
-			(at 95.25 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SW_B3U-3000PM_SMD"
-			(at 95.25 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/2610940.pdf"
-			(at 95.25 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-			(at 69.85 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "B3U-3000PM"
-			(at 74.93 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
-			(at 95.25 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 95.25 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 95.25 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6a5bf31-cabe-4292-a1fd-155f9a26caf0")
-		)
-		(pin "1"
-			(uuid "1085b292-83b1-414c-9ad6-1eca5bfac36d")
-		)
-		(instances
-			(project "audio-latency-processing-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
