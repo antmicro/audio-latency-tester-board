@@ -1,4 +1,4 @@
-# Audio Latency Processing Board
+# Audio controller board
 
 ![image](assets/previews/orthoT.png)
 
