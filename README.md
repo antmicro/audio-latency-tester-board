@@ -8,7 +8,7 @@ This project contains design files for a audio latency processing board.
 The design files were prepared in KiCad 8.x.
 
 ## Key features
-* TAS2505IRGER Class-D Amplifier
+* MAX98357A Class-D Amplifier
 * 2x RP2040 MCU
 
 ## Project structure
