@@ -1,5 +1,5 @@
 {
-    "id": "audio-latency-processing-board",
+    "id": "audio-controller-board",
     "componentIds": [
         "murata-grm155r71h103ka88d",
         "murata-grm155r61h104ke14d",
