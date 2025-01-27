@@ -133,7 +133,7 @@
 		(members "MISO" "MOSI" "SCK" "~{CS1}" "~{CS0}")
 	)
 	(bus_alias "TRIG"
-		(members "TRIG1" "TRIG2" "TRIG3")
+		(members "TRIG1" "TRIG2" "TRIG3" "TRIG4")
 	)
 	(bus
 		(pts

@@ -5706,10 +5706,6 @@
 		(uuid "6759dbdd-5049-4598-bd19-5482cedd7a68")
 	)
 	(no_connect
-		(at 190.5 184.15)
-		(uuid "7304c112-0d63-455c-a0e4-b22b96f281fd")
-	)
-	(no_connect
 		(at 190.5 125.73)
 		(uuid "81a04c28-1344-451b-a5ff-7f801cf9a2a8")
 	)
@@ -5836,6 +5832,15 @@
 			(type default)
 		)
 		(uuid "9b9635e7-c0d4-4285-a941-0f026226629d")
+	)
+	(bus_entry
+		(at 224.79 181.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1e7709-37e3-4107-8452-88e147293cd1")
 	)
 	(bus_entry
 		(at 111.76 143.51)
@@ -6254,6 +6259,16 @@
 			(type default)
 		)
 		(uuid "3c1a7591-4288-48a9-912c-e26461b494ec")
+	)
+	(wire
+		(pts
+			(xy 200.66 184.15) (xy 222.25 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc25100-87f5-47fa-8365-165f8868d682")
 	)
 	(wire
 		(pts
@@ -7047,6 +7062,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 184.15) (xy 195.58 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc303b52-61e3-429f-a28d-71c16829512e")
+	)
+	(wire
+		(pts
 			(xy 129.54 180.34) (xy 129.54 173.99)
 		)
 		(stroke
@@ -7184,6 +7209,16 @@
 			(type default)
 		)
 		(uuid "dea5ee1b-643c-45f2-b88b-4bf895d57ad2")
+	)
+	(bus
+		(pts
+			(xy 224.79 179.07) (xy 224.79 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec6df19-09ec-4f76-a2cf-6fc65f1b7b02")
 	)
 	(wire
 		(pts
@@ -7967,6 +8002,16 @@
 			(justify left bottom)
 		)
 		(uuid "e6fa4fb1-8007-408b-9b55-24b34c6d7635")
+	)
+	(label "TRIGGER.TRIG4"
+		(at 208.28 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0c04d51-ad32-470f-853d-5b181fe7fb93")
 	)
 	(label "SPI1.SCK"
 		(at 290.83 127 0)
@@ -11187,6 +11232,155 @@
 			(project "audio-latency-processing-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 195.58 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4491d5ba-1635-4e33-8316-7afc6c6e234a")
+		(property "Reference" "R12"
+			(at 193.802 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 215.9 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 215.9 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 215.9 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 195.58 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 215.9 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 215.9 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 215.9 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 215.9 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 201.676 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 215.9 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 215.9 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ebe5b93-277a-4d28-b9e2-cc8536b54315")
+		)
+		(pin "2"
+			(uuid "3c8ed80d-c9da-4348-a368-78a5bbd506ae")
+		)
+		(instances
+			(project "audio-latency-processing-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
+					(reference "R12")
 					(unit 1)
 				)
 			)
