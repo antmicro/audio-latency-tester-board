@@ -135,6 +135,22 @@
 	(bus_alias "TRIG"
 		(members "TRIG1" "TRIG2" "TRIG3" "TRIG4")
 	)
+	(junction
+		(at 148.59 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed744239-0d8d-4077-ae1b-e46e6ed44116")
+	)
+	(bus
+		(pts
+			(xy 135.89 124.46) (xy 151.13 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a22ea80-50f7-4f56-a498-1ddc15ea6c47")
+	)
 	(bus
 		(pts
 			(xy 194.31 157.48) (xy 194.31 138.43)
@@ -144,17 +160,6 @@
 			(type default)
 		)
 		(uuid "24e6a9db-653c-48a5-a7b2-c5743f6d01cf")
-	)
-	(bus
-		(pts
-			(xy 135.89 132.08) (xy 151.13 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 241 95 50 1)
-		)
-		(uuid "3847a8c7-931f-4832-866a-19f9173a16cc")
 	)
 	(bus
 		(pts
@@ -208,6 +213,27 @@
 	)
 	(bus
 		(pts
+			(xy 148.59 138.43) (xy 151.13 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 241 95 50 1)
+		)
+		(uuid "7e764844-6e6d-4025-965f-ebda55215ec1")
+	)
+	(bus
+		(pts
+			(xy 135.89 127) (xy 148.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b141b9-4506-4ef3-9f27-cc8364c34b3f")
+	)
+	(bus
+		(pts
 			(xy 194.31 123.19) (xy 200.66 123.19)
 		)
 		(stroke
@@ -215,6 +241,17 @@
 			(type default)
 		)
 		(uuid "9dcbffee-54af-4fce-862c-521c810ffc25")
+	)
+	(bus
+		(pts
+			(xy 135.89 138.43) (xy 148.59 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 241 95 50 1)
+		)
+		(uuid "aa45a497-c603-4175-b5b4-39daada00525")
 	)
 	(bus
 		(pts
@@ -245,6 +282,16 @@
 			(type default)
 		)
 		(uuid "d11b366e-0554-4490-a875-ec43b4f8e1b1")
+	)
+	(bus
+		(pts
+			(xy 148.59 127) (xy 148.59 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d904b5ba-b3ab-4f3b-9715-412ba7c62b3e")
 	)
 	(bus
 		(pts
@@ -696,7 +743,7 @@
 			)
 		)
 		(pin "I2S{I2S}" input
-			(at 151.13 132.08 180)
+			(at 151.13 138.43 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,6 +791,16 @@
 				(justify right)
 			)
 			(uuid "d44a029e-2f13-4218-85b1-cb58958168a1")
+		)
+		(pin "I2C1{I2C}" input
+			(at 151.13 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac354a32-ec50-47c3-8219-e660650d84f1")
 		)
 		(instances
 			(project "audio-controller-board"
@@ -807,6 +864,64 @@
 			(project "audio-controller-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 121.92)
+		(size 16.51 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40ac334b-c599-49c0-9e0c-ed974f127645")
+		(property "Sheetname" "PDM_MIC"
+			(at 119.38 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PDM_Mic.kicad_sch"
+			(at 119.38 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L-R-Mic{I2S}" input
+			(at 135.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84df099a-440b-4b8b-8b41-661fa07fa7b1")
+		)
+		(pin "I2C1{I2C}" input
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "12c83bcb-c693-4907-871c-8e1002e6e153")
+		)
+		(instances
+			(project "audio-controller-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc"
+					(page "8")
 				)
 			)
 		)
@@ -918,7 +1033,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 128.27)
+		(at 119.38 134.62)
 		(size 16.51 7.62)
 		(stroke
 			(width 0.1524)
@@ -929,7 +1044,7 @@
 		)
 		(uuid "a5973bba-065b-4f1e-8188-1e9f006e3cba")
 		(property "Sheetname" "L + R Ear Microphone Connectors"
-			(at 112.522 127.508 0)
+			(at 112.522 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -938,7 +1053,7 @@
 			)
 		)
 		(property "Sheetfile" "Mic_Conn.kicad_sch"
-			(at 116.586 136.652 0)
+			(at 116.586 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,7 +1062,7 @@
 			)
 		)
 		(pin "L-R-Mic{I2S}" output
-			(at 135.89 132.08 0)
+			(at 135.89 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5373,6 +5373,15 @@
 		(uuid "6f3d069f-ca56-4fdf-a991-9ad356fcdfa3")
 	)
 	(bus_entry
+		(at 270.51 166.37)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764ba20c-0dae-47a3-9bcd-9e79fe2668d0")
+	)
+	(bus_entry
 		(at 270.51 153.67)
 		(size -2.54 2.54)
 		(stroke
@@ -5398,6 +5407,15 @@
 			(type default)
 		)
 		(uuid "8792b69c-469f-4242-8d2d-55373669e122")
+	)
+	(bus_entry
+		(at 270.51 163.83)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3e48f5-ee72-4743-a12b-d9a7767fc57d")
 	)
 	(bus_entry
 		(at 274.32 120.65)
@@ -5839,7 +5857,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 166.37) (xy 270.51 166.37)
+			(xy 236.22 166.37) (xy 267.97 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5926,6 +5944,16 @@
 			(type default)
 		)
 		(uuid "41ad9c95-43e7-4438-989c-1220a6e860cb")
+	)
+	(bus
+		(pts
+			(xy 270.51 163.83) (xy 275.59 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42371d23-2f9c-452c-8fe5-a8641862607b")
 	)
 	(bus
 		(pts
@@ -6039,7 +6067,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 168.91) (xy 270.51 168.91)
+			(xy 236.22 168.91) (xy 267.97 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6676,6 +6704,16 @@
 			(type default)
 		)
 		(uuid "bf13ccdb-0e26-4b6a-9af8-cdd095469164")
+	)
+	(bus
+		(pts
+			(xy 270.51 166.37) (xy 270.51 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8a01bf-b89f-4ce3-9eab-e47d1340c964")
 	)
 	(wire
 		(pts
@@ -7508,6 +7546,18 @@
 		)
 		(uuid "a53b7a7f-7950-48fc-8c21-3f142ed941b6")
 	)
+	(hierarchical_label "I2C1{I2C}"
+		(shape input)
+		(at 275.59 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b22e3118-5994-4855-8dfc-e8cd96c7f787")
+	)
 	(hierarchical_label "SPI0{SPI}"
 		(shape input)
 		(at 279.4 109.22 0)
@@ -7759,124 +7809,6 @@
 			(project "audio-controller-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 270.51 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03795f30-46b8-41fb-a9eb-771cab859e1a")
-		(property "Reference" "TP1"
-			(at 275.59 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 280.67 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 280.67 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.29 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMT test point"
-			(at 270.51 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 281.305 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 281.305 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 280.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 280.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d758141-861b-4606-a6c9-d58c7acd8106")
-		)
-		(instances
-			(project "audio-controller-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10667,124 +10599,6 @@
 			(project "audio-controller-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 270.51 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48dae5af-0af1-4337-903b-bea41f3eaa04")
-		(property "Reference" "TP20"
-			(at 275.59 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 280.67 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 280.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.29 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMT test point"
-			(at 270.51 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 281.305 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 281.305 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 280.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 280.67 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5449cbeb-c066-4d1b-bfa0-bf034044b61e")
-		)
-		(instances
-			(project "audio-controller-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/0f773a2d-5391-40eb-be49-d7fe3e85e6be"
-					(reference "TP20")
 					(unit 1)
 				)
 			)
