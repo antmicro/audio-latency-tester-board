@@ -1914,12 +1914,14 @@
 				)
 			)
 		)
-		(symbol "antmicroTVSDiodes:TPD4E02B04DQA"
+		(symbol "antmicroTVSDiodes:TPD1E0B04_XDFN-2"
+			(pin_numbers hide)
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 12.7 0 0)
+			(property "Reference" "D"
+				(at 15.24 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1928,19 +1930,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "TPD4E02B04DQA"
-				(at 12.7 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
-				(at 12.7 -5.08 0)
+			(property "Value" "TPD1E0B04_XDFN-2"
+				(at 15.24 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1950,8 +1941,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf"
-				(at 12.7 -7.62 0)
+			(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
+				(at 15.24 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1961,7 +1952,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TVS diode array, 12 kV, USON-10, 3.6 V, 0.33 pF"
+			(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional TVS, 8 kV,  XDFN-2, 3.6 V, 0.18 pF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1970,8 +1972,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "TPD4E02B04DQAR"
-				(at 12.7 -2.54 0)
+			(property "MPN" "TPD1E0B04DPYR"
+				(at 15.24 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1981,7 +1983,7 @@
 				)
 			)
 			(property "Manufacturer" "Texas Instruments"
-				(at 12.7 -12.7 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1992,7 +1994,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 12.7 -15.24 0)
+				(at 15.24 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2003,7 +2005,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 12.7 -17.78 0)
+				(at 15.24 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2013,7 +2015,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, TVS, ESD"
+			(property "ki_keywords" "DIODE, SEMICONDUCTOR, TVS, ESD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2022,291 +2024,95 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USON*2.5x1.0mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "TPD1E0B04_XDFN-2_0_0"
+				(text ""
+					(at 7.62 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
-					(hide yes)
 				)
 			)
-			(symbol "TPD4E02B04DQA_1_1"
+			(symbol "TPD1E0B04_XDFN-2_0_1"
 				(polyline
 					(pts
-						(xy 2.54 -7.62) (xy 7.62 -7.62)
+						(xy 0.635 0) (xy 4.445 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+			)
+			(symbol "TPD1E0B04_XDFN-2_1_1"
 				(polyline
 					(pts
-						(xy 2.54 -5.08) (xy 7.62 -5.08)
+						(xy 2.54 1.016) (xy 2.159 1.016)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 7.62 0)
+						(xy 2.54 1.016) (xy 2.54 -1.016)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 2.54 -10.16)
+						(xy 2.921 -1.016) (xy 2.54 -1.016)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 7.62 -10.16)
+						(xy 1.016 -1.016) (xy 1.016 1.016) (xy 2.54 0) (xy 1.016 -1.016)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 4.826 -8.255) (xy 5.08 -8.001) (xy 5.08 -7.239) (xy 5.334 -6.985)
+						(xy 4.064 1.016) (xy 4.064 -1.016) (xy 2.54 0) (xy 4.064 1.016)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.826 -5.715) (xy 5.08 -5.461) (xy 5.08 -4.699) (xy 5.334 -4.445)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.826 -3.175) (xy 5.08 -2.921) (xy 5.08 -2.159) (xy 5.334 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.826 -0.635) (xy 5.08 -0.381) (xy 5.08 0.381) (xy 5.334 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 3.81 -8.255) (xy 3.81 -6.985) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 3.81 -5.715) (xy 3.81 -4.445) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 6.35 -4.445) (xy 6.35 -5.715) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.81 -3.175) (xy 3.81 -1.905) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 6.35 -3.175) (xy 6.35 -1.905) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.81 -0.635) (xy 3.81 0.635) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 6.35 -0.635) (xy 6.35 0.635) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -6.985) (xy 6.35 -8.255) (xy 5.08 -7.62) (xy 6.35 -6.985)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 2.54 2.54)
-					(end 8.89 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 7.62 -7.62)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 7.62 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 7.62 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 7.62 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 2.54)
-					(name "~"
+					(length 0.635)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2322,27 +2128,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 2.54) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "~"
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2350,132 +2138,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 2.54) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 2.54) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 2.54) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 2.54) hide
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4092,10 +3754,6 @@
 		(uuid "22fda2af-872c-4d05-9d6d-3cb98553973d")
 	)
 	(no_connect
-		(at 151.13 231.14)
-		(uuid "5ce75823-3f06-42c9-8e27-aa08534bb607")
-	)
-	(no_connect
 		(at 234.95 137.16)
 		(uuid "aa739d56-b537-4b74-a0c0-d049cef6ad28")
 	)
@@ -4199,6 +3857,16 @@
 			(type default)
 		)
 		(uuid "03b19aa2-6700-4769-a55a-8f1433527a60")
+	)
+	(wire
+		(pts
+			(xy 162.56 237.49) (xy 162.56 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f52ea2-2294-42c4-b401-181b5d99a801")
 	)
 	(wire
 		(pts
@@ -4432,7 +4100,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 227.33) (xy 146.05 228.6)
+			(xy 153.67 241.3) (xy 153.67 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c6d989-4055-44b7-a625-f3a70821af05")
+	)
+	(wire
+		(pts
+			(xy 171.45 245.11) (xy 171.45 246.38)
 		)
 		(stroke
 			(width 0)
@@ -4582,7 +4260,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 190.5) (xy 280.67 190.5)
+			(xy 266.7 190.5) (xy 280.67 190.5)
 		)
 		(stroke
 			(width 0)
@@ -4652,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 240.03) (xy 151.13 238.76)
+			(xy 153.67 252.73) (xy 153.67 251.46)
 		)
 		(stroke
 			(width 0)
@@ -4662,23 +4340,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 233.68) (xy 151.13 233.68)
+			(xy 151.13 237.49) (xy 162.56 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "617e0eef-d4b9-445d-8a2b-217edb2ca6a5")
-	)
-	(wire
-		(pts
-			(xy 146.05 228.6) (xy 151.13 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "640be187-5867-42d4-b679-3613d4168d07")
 	)
 	(wire
 		(pts
@@ -4832,7 +4500,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 236.22) (xy 151.13 236.22)
+			(xy 142.24 241.3) (xy 153.67 241.3)
 		)
 		(stroke
 			(width 0)
@@ -5192,6 +4860,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 252.73) (xy 171.45 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5d154d-dbdb-4088-9f77-04450924080b")
+	)
+	(wire
+		(pts
 			(xy 208.28 186.69) (xy 208.28 189.23)
 		)
 		(stroke
@@ -5302,6 +4980,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 252.73) (xy 162.56 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eecaeb05-2ce1-4974-bc4b-1146a20a46ea")
+	)
+	(wire
+		(pts
 			(xy 215.9 46.99) (xy 229.87 46.99)
 		)
 		(stroke
@@ -5342,7 +5030,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 187.96) (xy 280.67 187.96)
+			(xy 266.7 187.96) (xy 280.67 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5657,17 +5345,6 @@
 		)
 		(uuid "1de3c5bd-647b-477d-a5b1-081bf1d8fa64")
 	)
-	(label "I2C1.SDA"
-		(at 139.7 233.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34bc672c-b533-4e36-bfa8-b3682cd55520")
-	)
 	(label "R-PWR"
 		(at 97.79 240.03 0)
 		(fields_autoplaced yes)
@@ -5722,6 +5399,28 @@
 			(justify left bottom)
 		)
 		(uuid "513665c9-2bc3-4aa5-9af5-b87927d9629e")
+	)
+	(label "I2C.SDA"
+		(at 142.24 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c48c189-a7bd-49ff-b9f0-bd1f236d5b02")
+	)
+	(label "I2C.SCL"
+		(at 151.13 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f5d947b-6d3a-49dc-939d-2e3380edf0f2")
 	)
 	(label "I2C.SCL"
 		(at 267.97 138.43 0)
@@ -5790,7 +5489,7 @@
 		(uuid "8b90f1d3-5f63-4dd6-80e0-aabd8fa6e03c")
 	)
 	(label "I2C.SDA"
-		(at 256.54 187.96 0)
+		(at 266.7 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5822,17 +5521,6 @@
 		)
 		(uuid "9d55a389-50e4-4df6-8392-fd24c9c61161")
 	)
-	(label "I2C1.SCL"
-		(at 139.7 236.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6dd61f7-8b0e-4ead-aeaa-f26411aa8db3")
-	)
 	(label "PDM-CONV-CLOCK"
 		(at 204.47 121.92 0)
 		(fields_autoplaced yes)
@@ -5845,7 +5533,7 @@
 		(uuid "abb38fa3-49f4-4a2d-8190-9f9cf445543c")
 	)
 	(label "I2C.SCL"
-		(at 256.54 190.5 0)
+		(at 266.7 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8023,6 +7711,100 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
+		(at 162.56 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "590e3678-ae03-4190-836b-57727fc4a2a0")
+		(property "Reference" "#PWR0144"
+			(at 162.56 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 171.45 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 171.45 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b7c0f58-6047-48d2-b8f0-9a29c654a636")
+		)
+		(instances
+			(project "audio-controller-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/40ac334b-c599-49c0-9e0c-ed974f127645"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
 		(at 152.4 80.01 0)
 		(mirror y)
 		(unit 1)
@@ -8549,6 +8331,125 @@
 			(project "audio-controller-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/40ac334b-c599-49c0-9e0c-ed974f127645"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:TPD1E0B04_XDFN-2")
+		(at 162.56 251.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "678439c8-0847-45b0-9263-3768f610ce6a")
+		(property "Reference" "D10"
+			(at 165.608 250.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E0B04_XDFN-2"
+			(at 152.4 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
+			(at 157.48 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
+			(at 154.94 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 149.86 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD1E0B04DPYR"
+			(at 168.148 258.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 147.32 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 144.78 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40ee6481-a1b4-4c10-9c73-ed5c1467d3e4")
+		)
+		(pin "2"
+			(uuid "eaa381d2-e232-41c5-966c-8bc40db2af3b")
+		)
+		(instances
+			(project "audio-controller-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/40ac334b-c599-49c0-9e0c-ed974f127645"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -9412,6 +9313,125 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTVSDiodes:TPD1E0B04_XDFN-2")
+		(at 153.67 251.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f3bd519-72e0-4934-afd0-7bf6f2d2deac")
+		(property "Reference" "D11"
+			(at 156.718 250.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E0B04_XDFN-2"
+			(at 143.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
+			(at 148.59 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
+			(at 146.05 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 140.97 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD1E0B04DPYR"
+			(at 159.258 258.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 138.43 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 135.89 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52d164c6-ffca-41c2-835a-0b51afce93cb")
+		)
+		(pin "2"
+			(uuid "3c7c8813-bda4-4540-8c66-0cf108410c8d")
+		)
+		(instances
+			(project "audio-controller-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/40ac334b-c599-49c0-9e0c-ed974f127645"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroFCCConnectors:Conn_FFC_Molex_5019510550")
 		(at 133.35 66.04 0)
 		(mirror y)
@@ -10063,150 +10083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTVSDiodes:TPD4E02B04DQA")
-		(at 151.13 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c4932a5-f7ae-488e-8dc1-b8d528ab50ca")
-		(property "Reference" "U22"
-			(at 161.29 231.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TPD4E02B04DQA"
-			(at 163.83 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
-			(at 163.83 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf"
-			(at 163.83 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS diode array, 12 kV, USON-10, 3.6 V, 0.33 pF"
-			(at 151.13 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPD4E02B04DQAR"
-			(at 161.29 234.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 163.83 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 163.83 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 163.83 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "93d7b033-3e1e-47a8-820a-2a39429b2731")
-		)
-		(pin "7"
-			(uuid "2a827251-4731-4748-a64f-ee4cf4a4725f")
-		)
-		(pin "3"
-			(uuid "4d64a4a7-427d-494d-9622-84a5a14af47e")
-		)
-		(pin "2"
-			(uuid "13683f26-180f-4e03-b500-3172a45fa572")
-		)
-		(pin "5"
-			(uuid "58db6e48-6497-4b3e-bbe1-316c8555512a")
-		)
-		(pin "8"
-			(uuid "48021e53-5b07-41cc-96f8-6b6b711c9fba")
-		)
-		(pin "1"
-			(uuid "fa35041e-a815-4637-8ffa-44eaccf2fb8a")
-		)
-		(pin "9"
-			(uuid "e4ec26ed-6868-47d9-95ca-300346ea5521")
-		)
-		(pin "6"
-			(uuid "796dab76-6e49-4944-95ba-38dc05792501")
-		)
-		(pin "4"
-			(uuid "4191ecad-c44d-4cc4-97b2-a048e3dd0af8")
-		)
-		(instances
-			(project "audio-controller-board"
-				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/40ac334b-c599-49c0-9e0c-ed974f127645"
-					(reference "U22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 213.36 110.49 0)
 		(mirror y)
@@ -10549,6 +10425,125 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTVSDiodes:TPD1E0B04_XDFN-2")
+		(at 171.45 251.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8c65584-1d28-4fbe-a70c-8a4d6793c272")
+		(property "Reference" "D9"
+			(at 174.498 250.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E0B04_XDFN-2"
+			(at 161.29 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
+			(at 166.37 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
+			(at 163.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 158.75 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD1E0B04DPYR"
+			(at 177.038 258.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 156.21 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 153.67 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e99250a-7600-4957-a8c6-31155066475a")
+		)
+		(pin "2"
+			(uuid "b588696f-ca83-4611-8831-b2558b73adad")
+		)
+		(instances
+			(project "audio-controller-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/40ac334b-c599-49c0-9e0c-ed974f127645"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 275.59 182.88 0)
 		(unit 1)
@@ -10740,7 +10735,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 151.13 240.03 0)
+		(at 153.67 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10749,7 +10744,7 @@
 		(fields_autoplaced yes)
 		(uuid "b585114d-55b2-4fac-a54a-fa0766d7ce63")
 		(property "Reference" "#PWR0141"
-			(at 151.13 246.38 0)
+			(at 153.67 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +10754,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 243.84 0)
+			(at 153.67 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,7 +10763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 247.65 0)
+			(at 162.56 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10779,7 +10774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 252.73 0)
+			(at 162.56 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10790,7 +10785,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 240.03 0)
+			(at 153.67 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10799,7 +10794,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 160.02 247.65 0)
+			(at 162.56 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,7 +10805,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 160.02 250.19 0)
+			(at 162.56 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11094,7 +11089,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 146.05 227.33 0)
+		(at 171.45 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11102,7 +11097,7 @@
 		(dnp no)
 		(uuid "b784e0a8-fac9-4999-9239-b67885466617")
 		(property "Reference" "#PWR0142"
-			(at 161.29 227.33 0)
+			(at 186.69 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +11108,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 146.05 223.52 0)
+			(at 171.45 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 234.95 0)
+			(at 186.69 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,7 +11128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 237.49 0)
+			(at 186.69 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11144,7 +11139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 227.33 0)
+			(at 171.45 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11153,7 +11148,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 161.29 229.87 0)
+			(at 186.69 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +11159,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 161.29 232.41 0)
+			(at 186.69 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,6 +11550,100 @@
 			(project "audio-controller-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/40ac334b-c599-49c0-9e0c-ed974f127645"
 					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 171.45 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d23b2912-75ec-453a-b39c-6ddcf976a7c1")
+		(property "Reference" "#PWR0145"
+			(at 171.45 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 180.34 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 180.34 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cc39b02-5d5b-4710-a4b6-c3cef494a985")
+		)
+		(instances
+			(project "audio-controller-board"
+				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/40ac334b-c599-49c0-9e0c-ed974f127645"
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
