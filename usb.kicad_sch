@@ -7094,7 +7094,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 95.25) (xy 170.18 95.25)
+			(xy 158.75 97.79) (xy 170.18 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7684,7 +7684,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 148.59) (xy 170.18 148.59)
+			(xy 158.75 146.05) (xy 170.18 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8404,7 +8404,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 146.05) (xy 170.18 146.05)
+			(xy 158.75 148.59) (xy 170.18 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8734,7 +8734,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 97.79) (xy 170.18 97.79)
+			(xy 158.75 95.25) (xy 170.18 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8950,7 +8950,7 @@
 		(uuid "0b9600b1-20a7-40bf-8f57-e55c61cc734e")
 	)
 	(label "USB2.D_N"
-		(at 158.75 148.59 0)
+		(at 158.75 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8983,7 +8983,7 @@
 		(uuid "23a531cd-f92f-4528-aeae-e45f05206573")
 	)
 	(label "USB2.D_P"
-		(at 158.75 146.05 0)
+		(at 158.75 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9027,7 +9027,7 @@
 		(uuid "44c7323b-e0c2-4553-a58c-996b421092f0")
 	)
 	(label "USB1.D_N"
-		(at 158.75 97.79 0)
+		(at 158.75 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9159,7 +9159,7 @@
 		(uuid "d04ec9d0-32f6-4caa-88d3-41cab6e65250")
 	)
 	(label "USB1.D_P"
-		(at 158.75 95.25 0)
+		(at 158.75 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
