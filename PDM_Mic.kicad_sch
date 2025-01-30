@@ -5789,7 +5789,7 @@
 		)
 		(uuid "8b90f1d3-5f63-4dd6-80e0-aabd8fa6e03c")
 	)
-	(label "I2C1.SDA"
+	(label "I2C.SDA"
 		(at 256.54 187.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5844,7 +5844,7 @@
 		)
 		(uuid "abb38fa3-49f4-4a2d-8190-9f9cf445543c")
 	)
-	(label "I2C1.SCL"
+	(label "I2C.SCL"
 		(at 256.54 190.5 0)
 		(fields_autoplaced yes)
 		(effects
