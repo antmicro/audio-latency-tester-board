@@ -129,6 +129,9 @@
 	(bus_alias "I2S"
 		(members "SD" "SCK" "WS")
 	)
+	(bus_alias "PDM"
+		(members "DATA" "CLOCK")
+	)
 	(bus_alias "SPI"
 		(members "MISO" "MOSI" "SCK" "~{CS1}" "~{CS0}")
 	)
@@ -136,14 +139,24 @@
 		(members "TRIG1" "TRIG2" "TRIG3" "TRIG4")
 	)
 	(junction
-		(at 148.59 138.43)
+		(at 140.97 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed744239-0d8d-4077-ae1b-e46e6ed44116")
+		(uuid "724e5cc8-877e-4798-9d24-610d300f86a0")
 	)
 	(bus
 		(pts
-			(xy 135.89 124.46) (xy 151.13 124.46)
+			(xy 124.46 125.73) (xy 151.13 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04563d52-9cfe-4c8a-a290-f1d28565617b")
+	)
+	(bus
+		(pts
+			(xy 124.46 123.19) (xy 151.13 123.19)
 		)
 		(stroke
 			(width 0)
@@ -193,6 +206,17 @@
 	)
 	(bus
 		(pts
+			(xy 140.97 139.7) (xy 151.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 241 95 50 1)
+		)
+		(uuid "594ecb05-ec3d-470c-8106-1bff3217ae70")
+	)
+	(bus
+		(pts
 			(xy 182.88 154.94) (xy 190.5 154.94)
 		)
 		(stroke
@@ -213,22 +237,12 @@
 	)
 	(bus
 		(pts
-			(xy 148.59 138.43) (xy 151.13 138.43)
+			(xy 124.46 128.27) (xy 140.97 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 241 95 50 1)
-		)
-		(uuid "7e764844-6e6d-4025-965f-ebda55215ec1")
-	)
-	(bus
-		(pts
-			(xy 135.89 127) (xy 148.59 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
 		)
 		(uuid "80b141b9-4506-4ef3-9f27-cc8364c34b3f")
 	)
@@ -244,7 +258,7 @@
 	)
 	(bus
 		(pts
-			(xy 135.89 138.43) (xy 148.59 138.43)
+			(xy 124.46 139.7) (xy 140.97 139.7)
 		)
 		(stroke
 			(width 0)
@@ -285,11 +299,12 @@
 	)
 	(bus
 		(pts
-			(xy 148.59 127) (xy 148.59 138.43)
+			(xy 140.97 128.27) (xy 140.97 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 241 95 50 1)
 		)
 		(uuid "d904b5ba-b3ab-4f3b-9715-412ba7c62b3e")
 	)
@@ -743,7 +758,7 @@
 			)
 		)
 		(pin "I2S{I2S}" input
-			(at 151.13 138.43 180)
+			(at 151.13 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +808,7 @@
 			(uuid "d44a029e-2f13-4218-85b1-cb58958168a1")
 		)
 		(pin "I2C1{I2C}" input
-			(at 151.13 124.46 180)
+			(at 151.13 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,6 +816,16 @@
 				(justify left)
 			)
 			(uuid "ac354a32-ec50-47c3-8219-e660650d84f1")
+		)
+		(pin "PDM{PDM}" input
+			(at 151.13 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61e99652-e217-4d39-bbc9-7b8a0d799227")
 		)
 		(instances
 			(project "audio-controller-board"
@@ -869,9 +894,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 121.92)
-		(size 16.51 7.62)
-		(fields_autoplaced yes)
+		(at 107.95 120.65)
+		(size 16.51 10.16)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -880,8 +904,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "40ac334b-c599-49c0-9e0c-ed974f127645")
-		(property "Sheetname" "PDM_MIC"
-			(at 119.38 121.2084 0)
+		(property "Sheetname" "L + R PDM Microphone Connectors + I2S Converter"
+			(at 92.456 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +914,7 @@
 			)
 		)
 		(property "Sheetfile" "PDM_Mic.kicad_sch"
-			(at 119.38 130.1246 0)
+			(at 104.648 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +923,7 @@
 			)
 		)
 		(pin "L-R-Mic{I2S}" input
-			(at 135.89 127 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,8 +932,8 @@
 			)
 			(uuid "84df099a-440b-4b8b-8b41-661fa07fa7b1")
 		)
-		(pin "I2C1{I2C}" input
-			(at 135.89 124.46 0)
+		(pin "I2C{I2C}" input
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,6 +941,16 @@
 				(justify right)
 			)
 			(uuid "12c83bcb-c693-4907-871c-8e1002e6e153")
+		)
+		(pin "L-R-Mic{PDM}" input
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d37304bd-3bac-436a-8e7f-a54848137545")
 		)
 		(instances
 			(project "audio-controller-board"
@@ -1033,7 +1067,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 134.62)
+		(at 107.95 135.89)
 		(size 16.51 7.62)
 		(stroke
 			(width 0.1524)
@@ -1043,8 +1077,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a5973bba-065b-4f1e-8188-1e9f006e3cba")
-		(property "Sheetname" "L + R Ear Microphone Connectors"
-			(at 112.522 133.858 0)
+		(property "Sheetname" "L + R I2S Microphone Connectors"
+			(at 101.092 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1087,7 @@
 			)
 		)
 		(property "Sheetfile" "Mic_Conn.kicad_sch"
-			(at 116.586 143.002 0)
+			(at 104.648 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1096,7 @@
 			)
 		)
 		(pin "L-R-Mic{I2S}" output
-			(at 135.89 138.43 0)
+			(at 124.46 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)

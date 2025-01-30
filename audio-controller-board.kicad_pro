@@ -717,7 +717,7 @@
     ],
     [
       "a5973bba-065b-4f1e-8188-1e9f006e3cba",
-      "L + R Ear Microphone Connectors"
+      "L + R I2S Microphone Connectors"
     ],
     [
       "0f773a2d-5391-40eb-be49-d7fe3e85e6be",
@@ -737,7 +737,7 @@
     ],
     [
       "40ac334b-c599-49c0-9e0c-ed974f127645",
-      "PDM_MIC"
+      "L + R PDM Microphone Connectors + I2S Converter"
     ]
   ],
   "text_variables": {}
