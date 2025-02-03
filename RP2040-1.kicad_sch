@@ -7,7 +7,7 @@
 	(title_block
 		(title "Audio controller board")
 		(date "2025-01-30")
-		(rev "1.3.0")
+		(rev "1.3.1")
 	)
 	(lib_symbols
 		(symbol "antmicroCapacitors0402:C_100n_0402"
@@ -7531,7 +7531,6 @@
 	)
 	(label "I2C0.SCL"
 		(at 257.81 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7542,7 +7541,6 @@
 	)
 	(label "QSPI_SD1"
 		(at 186.69 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7553,7 +7551,6 @@
 	)
 	(label "I2C0.SDA"
 		(at 257.81 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7564,7 +7561,6 @@
 	)
 	(label "I2S.SCK"
 		(at 259.08 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7575,7 +7571,6 @@
 	)
 	(label "SWDIO"
 		(at 186.69 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7586,7 +7581,6 @@
 	)
 	(label "+1V1_MCU1"
 		(at 177.8 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7597,7 +7591,6 @@
 	)
 	(label "SPI0.~{CS0}"
 		(at 264.16 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7608,7 +7601,6 @@
 	)
 	(label "USB.D_P"
 		(at 170.18 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7619,7 +7611,6 @@
 	)
 	(label "TRIGGER.TRIG1"
 		(at 254 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7630,7 +7621,6 @@
 	)
 	(label "PDM.DATA"
 		(at 256.54 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7641,7 +7631,6 @@
 	)
 	(label "QSPI_SD3"
 		(at 186.69 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7652,7 +7641,6 @@
 	)
 	(label "TRIGGER.TRIG3"
 		(at 254 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7663,7 +7651,6 @@
 	)
 	(label "TRIGGER.TRIG4"
 		(at 254 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7674,7 +7661,6 @@
 	)
 	(label "SPI0.SCK"
 		(at 264.16 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7685,7 +7671,6 @@
 	)
 	(label "TRIGGER.TRIG2"
 		(at 254 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7696,7 +7681,6 @@
 	)
 	(label "XIN"
 		(at 198.12 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7707,7 +7691,6 @@
 	)
 	(label "SPI0.MISO"
 		(at 264.16 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7718,7 +7701,6 @@
 	)
 	(label "+1V1_MCU1"
 		(at 257.81 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7729,7 +7711,6 @@
 	)
 	(label "SWCLK"
 		(at 186.69 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7740,7 +7721,6 @@
 	)
 	(label "XOUT"
 		(at 198.12 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7751,7 +7731,6 @@
 	)
 	(label "SPI0.MOSI"
 		(at 264.16 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7762,7 +7741,6 @@
 	)
 	(label "XOUT_R"
 		(at 176.53 191.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7773,7 +7751,6 @@
 	)
 	(label "QSPI_SD0"
 		(at 186.69 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7784,7 +7761,6 @@
 	)
 	(label "QSPI_SD2"
 		(at 186.69 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7795,7 +7771,6 @@
 	)
 	(label "I2C1.SCL"
 		(at 302.26 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7806,7 +7781,6 @@
 	)
 	(label "I2C1.SDA"
 		(at 302.26 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7817,7 +7791,6 @@
 	)
 	(label "PDM.CLOCK"
 		(at 255.27 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7828,7 +7801,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 186.69 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7839,7 +7811,6 @@
 	)
 	(label "BOOTSEL"
 		(at 127 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7850,7 +7821,6 @@
 	)
 	(label "I2S.WS"
 		(at 259.08 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7861,7 +7831,6 @@
 	)
 	(label "I2S.SD"
 		(at 259.08 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7872,7 +7841,6 @@
 	)
 	(label "QSPI_CSn"
 		(at 186.69 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7883,7 +7851,6 @@
 	)
 	(label "RUN"
 		(at 193.04 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7894,7 +7861,6 @@
 	)
 	(label "USB.D_N"
 		(at 170.18 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7906,7 +7872,6 @@
 	(hierarchical_label "PDM{PDM}"
 		(shape input)
 		(at 273.05 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7918,7 +7883,6 @@
 	(hierarchical_label "I2C0{I2C}"
 		(shape input)
 		(at 275.59 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7930,7 +7894,6 @@
 	(hierarchical_label "I2S{I2S}"
 		(shape input)
 		(at 273.05 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7942,7 +7905,6 @@
 	(hierarchical_label "TRIGGER{TRIG}"
 		(shape input)
 		(at 273.05 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7954,7 +7916,6 @@
 	(hierarchical_label "I2C1{I2C}"
 		(shape input)
 		(at 320.04 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7966,7 +7927,6 @@
 	(hierarchical_label "SPI0{SPI}"
 		(shape input)
 		(at 279.4 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7978,7 +7938,6 @@
 	(hierarchical_label "USB{USB}"
 		(shape input)
 		(at 154.94 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

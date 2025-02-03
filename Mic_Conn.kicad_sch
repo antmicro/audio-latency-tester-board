@@ -7,7 +7,7 @@
 	(title_block
 		(title "Audio controller board")
 		(date "2025-01-30")
-		(rev "1.3.0")
+		(rev "1.3.1")
 	)
 	(lib_symbols
 		(symbol "antmicroCapacitors0402:C_100n_0402"
@@ -3450,7 +3450,6 @@
 	)
 	(label "L-WS"
 		(at 137.16 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3461,7 +3460,6 @@
 	)
 	(label "L-DATA"
 		(at 208.28 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3472,7 +3470,6 @@
 	)
 	(label "L-R-Mic.SCK"
 		(at 299.72 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3483,7 +3480,6 @@
 	)
 	(label "L-R-Mic.WS"
 		(at 213.36 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3494,7 +3490,6 @@
 	)
 	(label "R-DATA"
 		(at 208.28 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3505,7 +3500,6 @@
 	)
 	(label "R-DATA"
 		(at 179.07 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3516,7 +3510,6 @@
 	)
 	(label "R-PWR"
 		(at 208.28 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3527,7 +3520,6 @@
 	)
 	(label "L-R-Mic.SCK"
 		(at 224.79 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3538,7 +3530,6 @@
 	)
 	(label "R-WS"
 		(at 180.34 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3549,7 +3540,6 @@
 	)
 	(label "R-BCLK"
 		(at 180.34 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3560,7 +3550,6 @@
 	)
 	(label "R-PWR"
 		(at 130.81 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3571,7 +3560,6 @@
 	)
 	(label "L-BCLK"
 		(at 137.16 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3582,7 +3570,6 @@
 	)
 	(label "L-WS"
 		(at 180.34 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3593,7 +3580,6 @@
 	)
 	(label "L-R-Mic.WS"
 		(at 312.42 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3604,7 +3590,6 @@
 	)
 	(label "L-BCLK"
 		(at 208.28 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3615,7 +3600,6 @@
 	)
 	(label "L-WS"
 		(at 208.28 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3626,7 +3610,6 @@
 	)
 	(label "R-WS"
 		(at 208.28 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3637,7 +3620,6 @@
 	)
 	(label "L-DATA"
 		(at 179.07 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3648,7 +3630,6 @@
 	)
 	(label "R-WS"
 		(at 138.43 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3659,7 +3640,6 @@
 	)
 	(label "L-PWR"
 		(at 129.54 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3670,7 +3650,6 @@
 	)
 	(label "L-R-Mic.SD"
 		(at 312.42 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3681,7 +3660,6 @@
 	)
 	(label "L-R-Mic.WS"
 		(at 299.72 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3692,7 +3670,6 @@
 	)
 	(label "L-R-Mic.SD"
 		(at 299.72 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3703,7 +3680,6 @@
 	)
 	(label "R-BCLK"
 		(at 138.43 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3714,7 +3690,6 @@
 	)
 	(label "L-R-Mic.SD"
 		(at 213.36 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3725,7 +3700,6 @@
 	)
 	(label "L-R-Mic.WS"
 		(at 224.79 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3736,7 +3710,6 @@
 	)
 	(label "R-DATA"
 		(at 138.43 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3747,7 +3720,6 @@
 	)
 	(label "L-R-Mic.SD"
 		(at 224.79 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3758,7 +3730,6 @@
 	)
 	(label "L-BCLK"
 		(at 180.34 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3769,7 +3740,6 @@
 	)
 	(label "L-R-Mic.SCK"
 		(at 312.42 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3780,7 +3750,6 @@
 	)
 	(label "L-R-Mic.SCK"
 		(at 213.36 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3791,7 +3760,6 @@
 	)
 	(label "L-PWR"
 		(at 208.28 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3802,7 +3770,6 @@
 	)
 	(label "R-BCLK"
 		(at 208.28 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3813,7 +3780,6 @@
 	)
 	(label "L-DATA"
 		(at 137.16 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3825,7 +3791,6 @@
 	(hierarchical_label "L-R-Mic{I2S}"
 		(shape input)
 		(at 248.92 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

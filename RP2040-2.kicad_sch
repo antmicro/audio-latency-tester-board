@@ -7,7 +7,7 @@
 	(title_block
 		(title "Audio controller board")
 		(date "2025-01-30")
-		(rev "1.3.0")
+		(rev "1.3.1")
 	)
 	(lib_symbols
 		(symbol "antmicroCapacitors0402:C_100n_0402"
@@ -7609,7 +7609,6 @@
 	)
 	(label "+1V1_MCU2"
 		(at 132.08 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7620,7 +7619,6 @@
 	)
 	(label "SPI1.~{CS0}"
 		(at 208.28 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7631,7 +7629,6 @@
 	)
 	(label "USB.D_N"
 		(at 124.46 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7642,7 +7639,6 @@
 	)
 	(label "USB.D_P"
 		(at 124.46 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7653,7 +7649,6 @@
 	)
 	(label "I2S.SD"
 		(at 204.47 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7664,7 +7659,6 @@
 	)
 	(label "SPI1.MISO"
 		(at 290.83 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7675,7 +7669,6 @@
 	)
 	(label "XOUT"
 		(at 152.4 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7686,7 +7679,6 @@
 	)
 	(label "XOUT_R"
 		(at 129.54 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7697,7 +7689,6 @@
 	)
 	(label "SPI1.MISO"
 		(at 208.28 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7708,7 +7699,6 @@
 	)
 	(label "SPI0.MOSI"
 		(at 195.58 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7719,7 +7709,6 @@
 	)
 	(label "QSPI_SD1"
 		(at 140.97 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7730,7 +7719,6 @@
 	)
 	(label "SWDIO"
 		(at 140.97 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7741,7 +7729,6 @@
 	)
 	(label "I2S.SCK"
 		(at 204.47 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7752,7 +7739,6 @@
 	)
 	(label "SPI0.~{CS0}"
 		(at 195.58 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7763,7 +7749,6 @@
 	)
 	(label "SWCLK"
 		(at 140.97 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7774,7 +7759,6 @@
 	)
 	(label "+1V1_MCU2"
 		(at 208.28 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7785,7 +7769,6 @@
 	)
 	(label "QSPI_CSn"
 		(at 140.97 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7796,7 +7779,6 @@
 	)
 	(label "SPI0.MISO"
 		(at 195.58 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7807,7 +7789,6 @@
 	)
 	(label "SPI1.MOSI"
 		(at 208.28 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7818,7 +7799,6 @@
 	)
 	(label "SPI1.SCK"
 		(at 208.28 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7829,7 +7809,6 @@
 	)
 	(label "XIN"
 		(at 152.4 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7840,7 +7819,6 @@
 	)
 	(label "QSPI_SD3"
 		(at 140.97 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7851,7 +7829,6 @@
 	)
 	(label "I2C0.SDA"
 		(at 243.84 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7862,7 +7839,6 @@
 	)
 	(label "RUN"
 		(at 147.32 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7873,7 +7849,6 @@
 	)
 	(label "I2C1.SCL"
 		(at 243.84 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7884,7 +7859,6 @@
 	)
 	(label "QSPI_SD0"
 		(at 140.97 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7895,7 +7869,6 @@
 	)
 	(label "I2C1.SDA"
 		(at 243.84 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7906,7 +7879,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 140.97 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7917,7 +7889,6 @@
 	)
 	(label "SPI0.SCK"
 		(at 195.58 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7928,7 +7899,6 @@
 	)
 	(label "BOOTSEL"
 		(at 81.28 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7939,7 +7909,6 @@
 	)
 	(label "SPI1.MOSI"
 		(at 290.83 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7950,7 +7919,6 @@
 	)
 	(label "I2C0.SCL"
 		(at 243.84 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7961,7 +7929,6 @@
 	)
 	(label "TRIGGER.TRIG2"
 		(at 208.28 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7972,7 +7939,6 @@
 	)
 	(label "TRIGGER.TRIG3"
 		(at 208.28 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7983,7 +7949,6 @@
 	)
 	(label "TRIGGER.TRIG1"
 		(at 208.28 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7994,7 +7959,6 @@
 	)
 	(label "SPI1.~{CS0}"
 		(at 290.83 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8005,7 +7969,6 @@
 	)
 	(label "TRIGGER.TRIG4"
 		(at 208.28 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8016,7 +7979,6 @@
 	)
 	(label "SPI1.SCK"
 		(at 290.83 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8027,7 +7989,6 @@
 	)
 	(label "I2S.WS"
 		(at 204.47 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8038,7 +7999,6 @@
 	)
 	(label "QSPI_SD2"
 		(at 140.97 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8050,7 +8010,6 @@
 	(hierarchical_label "TRIGGER{TRIG}"
 		(shape input)
 		(at 227.33 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8062,7 +8021,6 @@
 	(hierarchical_label "I2C0{I2C}"
 		(shape input)
 		(at 261.62 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8074,7 +8032,6 @@
 	(hierarchical_label "USB{USB}"
 		(shape input)
 		(at 109.22 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8086,7 +8043,6 @@
 	(hierarchical_label "SPI0{SPI}"
 		(shape input)
 		(at 213.36 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8098,7 +8054,6 @@
 	(hierarchical_label "I2S{I2S}"
 		(shape input)
 		(at 218.44 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

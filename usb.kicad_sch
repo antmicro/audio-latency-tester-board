@@ -7,7 +7,7 @@
 	(title_block
 		(title "Audio controller board")
 		(date "2025-01-30")
-		(rev "1.3.0")
+		(rev "1.3.1")
 	)
 	(lib_symbols
 		(symbol "antmicroCapacitors0402:C_100n_0402"
@@ -8940,7 +8940,6 @@
 	)
 	(label "USB2_VBUS"
 		(at 246.38 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8951,7 +8950,6 @@
 	)
 	(label "USB2.D_N"
 		(at 158.75 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8962,7 +8960,6 @@
 	)
 	(label "USB2_CC2"
 		(at 158.75 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8973,7 +8970,6 @@
 	)
 	(label "USB1_VBUS"
 		(at 246.38 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8984,7 +8980,6 @@
 	)
 	(label "USB2.D_P"
 		(at 158.75 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8995,7 +8990,6 @@
 	)
 	(label "USB1_CC2"
 		(at 140.97 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9006,7 +9000,6 @@
 	)
 	(label "USB1.D_N"
 		(at 138.43 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9017,7 +9010,6 @@
 	)
 	(label "USB2_CC2"
 		(at 140.97 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9028,7 +9020,6 @@
 	)
 	(label "USB1.D_N"
 		(at 158.75 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9039,7 +9030,6 @@
 	)
 	(label "USB1.D_P"
 		(at 138.43 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9050,7 +9040,6 @@
 	)
 	(label "USB1_VBUS"
 		(at 227.33 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9061,7 +9050,6 @@
 	)
 	(label "USB2_CC1"
 		(at 158.75 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9072,7 +9060,6 @@
 	)
 	(label "USB2_VBUS"
 		(at 232.41 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9083,7 +9070,6 @@
 	)
 	(label "USB1_CC2"
 		(at 158.75 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9094,7 +9080,6 @@
 	)
 	(label "USB2.D_P"
 		(at 142.24 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9105,7 +9090,6 @@
 	)
 	(label "USB1_VBUS"
 		(at 232.41 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9116,7 +9100,6 @@
 	)
 	(label "USB2_CC1"
 		(at 140.97 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9127,7 +9110,6 @@
 	)
 	(label "USB1_CC1"
 		(at 158.75 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9138,7 +9120,6 @@
 	)
 	(label "USB2.D_N"
 		(at 142.24 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9149,7 +9130,6 @@
 	)
 	(label "USB1_CC1"
 		(at 140.97 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9160,7 +9140,6 @@
 	)
 	(label "USB1.D_P"
 		(at 158.75 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9171,7 +9150,6 @@
 	)
 	(label "USB2_VBUS"
 		(at 227.33 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9183,7 +9161,6 @@
 	(hierarchical_label "USB1{USB}"
 		(shape input)
 		(at 157.48 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9195,7 +9172,6 @@
 	(hierarchical_label "USB2{USB}"
 		(shape input)
 		(at 161.29 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
