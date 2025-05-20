@@ -1,4 +1,4 @@
-# Audio controller board
+# Audio Latency Tester Board
 
 Copyright (c) 2024-2025 [Antmicro](https://www.antmicro.com)
 
