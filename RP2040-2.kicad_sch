@@ -5,7 +5,7 @@
 	(uuid "5a4e75e6-fdff-40dc-b04a-8a3f866d3103")
 	(paper "A3")
 	(title_block
-		(title "Audio controller board")
+		(title "Audio latency tester board")
 		(date "2025-04-03")
 		(rev "1.3.2")
 	)
@@ -10375,7 +10375,7 @@
 			(uuid "846893a4-049d-4e7e-90aa-0316cbdc0a21")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0118")
 					(unit 1)
@@ -10524,7 +10524,7 @@
 			(uuid "f02dd1d4-f2a2-460e-a9cb-3777857a469c")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R85")
 					(unit 1)
@@ -10660,7 +10660,7 @@
 			(uuid "45f0ff2d-60e8-449d-b612-42d95c23148d")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "U10")
 					(unit 1)
@@ -10754,7 +10754,7 @@
 			(uuid "fab55c73-e2ad-41ad-82ad-c3b19821fdda")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0156")
 					(unit 1)
@@ -10872,7 +10872,7 @@
 			(uuid "a9479585-afa4-4da6-a0e0-fce4a3b39882")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "TP22")
 					(unit 1)
@@ -11010,7 +11010,7 @@
 			(uuid "f2fad3e3-1694-4d9d-9be5-da49c30f69f7")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R49")
 					(unit 1)
@@ -11162,7 +11162,7 @@
 			(uuid "defdcaf3-dde8-4758-8c09-5ceae0d09761")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C51")
 					(unit 1)
@@ -11256,7 +11256,7 @@
 			(uuid "64df4a84-4026-4eae-bea6-c919f2c7d2c3")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR099")
 					(unit 1)
@@ -11408,7 +11408,7 @@
 			(uuid "733f7af9-304f-4433-855c-d4affaa75c90")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C40")
 					(unit 1)
@@ -11502,7 +11502,7 @@
 			(uuid "5b966ee0-fb54-4a29-8157-3d519d5eef2b")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR097")
 					(unit 1)
@@ -11620,7 +11620,7 @@
 			(uuid "549fa124-d9be-43e5-8f5d-215dc51e12d2")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "SW4")
 					(unit 1)
@@ -11772,7 +11772,7 @@
 			(uuid "a4d7a05b-66df-4005-8be3-8f14b448fb35")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C50")
 					(unit 1)
@@ -11866,7 +11866,7 @@
 			(uuid "c1290ac9-3978-4e97-a635-feb56526a694")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR093")
 					(unit 1)
@@ -12000,7 +12000,7 @@
 			(uuid "90de0175-a907-4700-aa23-7a141c62e0d1")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "Y3")
 					(unit 1)
@@ -12094,7 +12094,7 @@
 			(uuid "2de083ed-ee52-4992-ba22-3e755b0b06ac")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0115")
 					(unit 1)
@@ -12188,7 +12188,7 @@
 			(uuid "6ed7c56a-ba35-4b09-9386-d5c8e6bf5783")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR050")
 					(unit 1)
@@ -12337,7 +12337,7 @@
 			(uuid "2e5439d0-906f-4719-ad8a-5979c6316bcf")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R84")
 					(unit 1)
@@ -12431,7 +12431,7 @@
 			(uuid "062be63e-e224-48ff-a835-070214f8e7fa")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0157")
 					(unit 1)
@@ -12571,7 +12571,7 @@
 			(uuid "22d016fe-a765-4d8a-b312-af52399f1b01")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R41")
 					(unit 1)
@@ -12710,7 +12710,7 @@
 			(uuid "e800ab3d-ed0b-4777-8472-72bd41a5886e")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R62")
 					(unit 1)
@@ -13111,7 +13111,7 @@
 			(uuid "7ab0d07f-0478-4863-858a-a3b3b58ccb55")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "U12")
 					(unit 1)
@@ -13205,7 +13205,7 @@
 			(uuid "d52034e7-4fb4-41b8-85d3-a45d1cafbfbe")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR090")
 					(unit 1)
@@ -13318,7 +13318,7 @@
 			(uuid "c9d5746a-7e38-494f-9597-f8f9cd9860af")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "TP14")
 					(unit 1)
@@ -13412,7 +13412,7 @@
 			(uuid "52c78564-17b4-416d-a92f-b4e59d619fb0")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR047")
 					(unit 1)
@@ -13561,7 +13561,7 @@
 			(uuid "3c8ed80d-c9da-4348-a368-78a5bbd506ae")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R12")
 					(unit 1)
@@ -13690,7 +13690,7 @@
 			(uuid "d434a8d4-c5c2-4003-965a-e7fdfa31a8ef")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "D7")
 					(unit 1)
@@ -13784,7 +13784,7 @@
 			(uuid "32b3fb52-19fc-4889-8c8e-a661eefcb8ed")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR085")
 					(unit 1)
@@ -13933,7 +13933,7 @@
 			(uuid "678e9cf8-d0f2-43b7-ab7c-17979ea11910")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R76")
 					(unit 1)
@@ -14047,7 +14047,7 @@
 			(uuid "e3286477-0079-4178-9203-532de40aefc4")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "TP8")
 					(unit 1)
@@ -14164,7 +14164,7 @@
 			(uuid "be8b6be9-2a85-4f9a-b5be-6448619e255a")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "TP24")
 					(unit 1)
@@ -14258,7 +14258,7 @@
 			(uuid "d6adb625-d71c-4c38-9334-583a858d4e75")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0100")
 					(unit 1)
@@ -14354,7 +14354,7 @@
 			(uuid "1fdce327-e5b4-4361-8ead-157cf5f30b47")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0102")
 					(unit 1)
@@ -14586,7 +14586,7 @@
 			(uuid "3191bd24-5935-4d35-83c3-ff473b338753")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR092")
 					(unit 1)
@@ -14726,7 +14726,7 @@
 			(uuid "5f74acc7-ea72-4bed-99b8-e53ec533137c")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R45")
 					(unit 1)
@@ -14876,7 +14876,7 @@
 			(uuid "b6e3b354-6999-40fb-aa9e-96d3ffb7513a")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C32")
 					(unit 1)
@@ -15015,7 +15015,7 @@
 			(uuid "4f199fe8-81a5-47a4-9141-0778b18e96f1")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R77")
 					(unit 1)
@@ -15129,7 +15129,7 @@
 			(uuid "3303edbe-135f-4fb1-9604-beb145e583d2")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "TP9")
 					(unit 1)
@@ -15281,7 +15281,7 @@
 			(uuid "4980cc5a-b42f-4969-8430-598ba77cc89c")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C43")
 					(unit 1)
@@ -15395,7 +15395,7 @@
 			(uuid "0cd0c320-dad8-4bfd-8e99-f9f927dbb7c0")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "TP13")
 					(unit 1)
@@ -15489,7 +15489,7 @@
 			(uuid "84a481e3-70c4-4226-b00b-8ffc54757de5")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR091")
 					(unit 1)
@@ -15583,7 +15583,7 @@
 			(uuid "1cf5a093-c704-4e5b-9faf-8e409cc152e9")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0107")
 					(unit 1)
@@ -15677,7 +15677,7 @@
 			(uuid "70e57091-becb-4fca-b9ff-36cfa668e18b")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR095")
 					(unit 1)
@@ -15799,7 +15799,7 @@
 			(uuid "9ef92d99-0649-4696-a860-4487ef4afd92")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "Q6")
 					(unit 1)
@@ -15949,7 +15949,7 @@
 			(uuid "f202cc6e-6cf5-4816-9880-16ccd0114b09")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C33")
 					(unit 1)
@@ -16043,7 +16043,7 @@
 			(uuid "b79f9bdc-159f-4477-9335-5f7be703f38e")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0101")
 					(unit 1)
@@ -16137,7 +16137,7 @@
 			(uuid "4d4f54a9-b786-47b2-aa60-62fb9d6c4bf3")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0117")
 					(unit 1)
@@ -16427,7 +16427,7 @@
 			(uuid "e728616f-4b28-42dd-997c-f669b2e4507a")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C42")
 					(unit 1)
@@ -16576,7 +16576,7 @@
 			(uuid "cc0755b7-4a7b-4087-b5b3-a6146dd9143a")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R82")
 					(unit 1)
@@ -16727,7 +16727,7 @@
 			(uuid "161248f6-5ed8-499d-a00b-5abfd272cd59")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C52")
 					(unit 1)
@@ -16879,7 +16879,7 @@
 			(uuid "7eac2d5b-7d26-44fd-87a7-1b8641026354")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C37")
 					(unit 1)
@@ -16973,7 +16973,7 @@
 			(uuid "ee2cf25d-1f72-40f0-a115-6b44059ea776")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0119")
 					(unit 1)
@@ -17125,7 +17125,7 @@
 			(uuid "089a3f10-eab9-4b9b-bd57-287421bd7726")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C60")
 					(unit 1)
@@ -17243,7 +17243,7 @@
 			(uuid "51f601fa-fa49-4b14-afbe-9f16a9be6eb2")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "TP4")
 					(unit 1)
@@ -17393,7 +17393,7 @@
 			(uuid "16420606-d238-409f-87bc-de07a5ef1774")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C36")
 					(unit 1)
@@ -17545,7 +17545,7 @@
 			(uuid "8243618a-e718-49d7-b1df-6ea92748c020")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C61")
 					(unit 1)
@@ -17639,7 +17639,7 @@
 			(uuid "300b32d7-cd9e-4f2f-b0ec-a4b648ef3591")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR046")
 					(unit 1)
@@ -17777,7 +17777,7 @@
 			(uuid "73ef7e27-f0c1-404c-b6f0-a134e01cc3b7")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R50")
 					(unit 1)
@@ -17871,7 +17871,7 @@
 			(uuid "c57f9501-8ca9-466b-8597-927ea9e73b07")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR086")
 					(unit 1)
@@ -18023,7 +18023,7 @@
 			(uuid "eaa089cc-4492-42a9-8418-35a3f7fb209b")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C39")
 					(unit 1)
@@ -18164,7 +18164,7 @@
 			(uuid "27516615-d6ab-44de-9ba3-d6a5b47f3360")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R91")
 					(unit 1)
@@ -18303,7 +18303,7 @@
 			(uuid "931def0a-9f6b-4422-9a29-3090cae37ea8")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R78")
 					(unit 1)
@@ -18421,7 +18421,7 @@
 			(uuid "234807d2-4b09-4caf-83fe-5b6a7dd72913")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "TP25")
 					(unit 1)
@@ -18515,7 +18515,7 @@
 			(uuid "03cdc446-baf8-4e28-aa70-ef070901a2cf")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0131")
 					(unit 1)
@@ -18664,7 +18664,7 @@
 			(uuid "4444dfe0-bab9-44b2-bc6e-f3462507e920")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R83")
 					(unit 1)
@@ -18782,7 +18782,7 @@
 			(uuid "0319ef2e-bb8e-428e-a6e9-61c6bb6a3d74")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "TP23")
 					(unit 1)
@@ -18934,7 +18934,7 @@
 			(uuid "84dd1160-83ae-474e-8cab-b6cb7771fbc9")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C34")
 					(unit 1)
@@ -19074,7 +19074,7 @@
 			(uuid "23236af7-f952-4c12-ab83-85d7b25b51d2")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R92")
 					(unit 1)
@@ -19224,7 +19224,7 @@
 			(uuid "e70e6b1a-1d69-4e37-a918-fcb9ae6a0c02")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C31")
 					(unit 1)
@@ -19318,7 +19318,7 @@
 			(uuid "37626a0c-65a3-46ed-ae7d-16fd1901d46e")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR0116")
 					(unit 1)
@@ -19459,7 +19459,7 @@
 			(uuid "fcba5f6a-139c-4ba5-9c1c-955569650119")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R53")
 					(unit 1)
@@ -19608,7 +19608,7 @@
 			(uuid "3a6d874e-cc44-4b41-b721-4875e6e3d722")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R81")
 					(unit 1)
@@ -19702,7 +19702,7 @@
 			(uuid "eb5c1e26-3df7-4981-86a4-344af14cfa0e")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR096")
 					(unit 1)
@@ -19840,7 +19840,7 @@
 			(uuid "16f2585a-7c98-4f71-a2ae-c4d5c1e25536")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R51")
 					(unit 1)
@@ -19934,7 +19934,7 @@
 			(uuid "9bbad83d-6874-4058-b3b4-1ea1662bd77e")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR043")
 					(unit 1)
@@ -20028,7 +20028,7 @@
 			(uuid "77e2112c-8be4-4250-81b3-94361f518280")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR089")
 					(unit 1)
@@ -20168,7 +20168,7 @@
 			(uuid "e0373966-a48e-4276-a922-ede983c30ff7")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "R42")
 					(unit 1)
@@ -20262,7 +20262,7 @@
 			(uuid "727b0960-52ba-4fb1-b2f2-bef1fbce6b4f")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "#PWR088")
 					(unit 1)
@@ -20414,7 +20414,7 @@
 			(uuid "9b7c7662-cb93-4c26-b2f5-6100522a8c3e")
 		)
 		(instances
-			(project "audio-controller-board"
+			(project "audio-latency-tester-board"
 				(path "/7fb12ebf-f685-4412-b638-445b1bf344bc/e8d03d22-ee30-4cd2-9426-15bfa302127a"
 					(reference "C38")
 					(unit 1)

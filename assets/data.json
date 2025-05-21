@@ -1,5 +1,5 @@
 {
-    "id": "audio-controller-board",
+    "id": "audio-latency-tester-board",
     "componentIds": [
         "murata-grm155r71h103ka88d",
         "murata-grm155r61h104ke14d",
